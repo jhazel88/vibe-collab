@@ -5,15 +5,24 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:api": "node api/index.js",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "migrate": "node api/db/migrate.js",
+    "migrate:dry": "node api/db/migrate.js --dry-run"
   },
   "dependencies": {
     "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "react-dom": "^19.2.4",
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "cookie-parser": "^1.4.7",
+    "pg": "^8.13.0",
+    "@anthropic-ai/sdk": "^0.39.0",
+    "openai": "^4.77.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",
