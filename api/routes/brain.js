@@ -134,12 +134,12 @@ router.post("/chat", async (req, res, next) => {
     const answerText = llmResult.text;
     const latencyMs = Date.now() - startTime;
 
-    // 7. Extract citations from snippets that were likely used
+    // 7. Extract citations from snippets — only include those with real URLs
     const citations = snippets
-      .filter((s) => s.source_url || s.source_label)
+      .filter((s) => s.source_url)
       .map((s) => ({
         source_url: s.source_url,
-        source_label: s.source_label,
+        source_label: s.source_label || s.title,
         excerpt: null,
       }));
 

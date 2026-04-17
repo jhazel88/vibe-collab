@@ -66,7 +66,7 @@ router.get("/", async (req, res, next) => {
 
     if (req.query.condition) {
       paramIdx++;
-      conditions.push(`$${paramIdx} ILIKE ANY(t.conditions)`);
+      conditions.push(`EXISTS (SELECT 1 FROM unnest(t.conditions) AS elem WHERE elem ILIKE $${paramIdx})`);
       params.push(`%${req.query.condition}%`);
     }
 

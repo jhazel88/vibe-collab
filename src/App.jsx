@@ -1,6 +1,8 @@
 import { useState, useCallback, useMemo } from "react";
 import SearchPage from "./pages/SearchPage.jsx";
 import SponsorPage from "./pages/SponsorPage.jsx";
+import AssetPage from "./pages/AssetPage.jsx";
+import TrialPage from "./pages/TrialPage.jsx";
 import CountryPage from "./pages/CountryPage.jsx";
 import ChatPanel from "./components/ChatPanel.jsx";
 
@@ -22,7 +24,13 @@ function App() {
       return { country_iso: route.id, mode: "country" };
     }
     if (route.page === "sponsor" && route.id) {
-      return { asset_id: route.id, mode: "sponsor" };
+      return { sponsor_slug: route.id, mode: "sponsor" };
+    }
+    if (route.page === "asset" && route.id) {
+      return { asset_slug: route.id, mode: "asset" };
+    }
+    if (route.page === "trial" && route.id) {
+      return { nct_id: route.id, mode: "trial" };
     }
     return { mode: "search" };
   }, [route.page, route.id]);
@@ -57,6 +65,12 @@ function App() {
           )}
           {route.page === "sponsor" && route.id && (
             <SponsorPage slug={route.id} onNavigate={navigate} />
+          )}
+          {route.page === "asset" && route.id && (
+            <AssetPage slug={route.id} onNavigate={navigate} />
+          )}
+          {route.page === "trial" && route.id && (
+            <TrialPage nctId={route.id} onNavigate={navigate} />
           )}
           {route.page === "country" && route.id && (
             <CountryPage iso={route.id} onNavigate={navigate} />

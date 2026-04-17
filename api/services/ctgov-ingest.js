@@ -158,20 +158,83 @@ function matchSponsor(sponsorName, sponsorMap) {
   return null;
 }
 
+// ── Asset matching ──────────────────────────────────────────────────────
+
+/**
+ * Build a lookup map of asset names/aliases → asset IDs.
+ * Matches intervention names from CT.gov to known assets.
+ */
+async function buildAssetMap(client) {
+  const result = await client.query("SELECT id, slug, name FROM assets");
+  const map = new Map();
+
+  for (const row of result.rows) {
+    map.set(row.name.toLowerCase(), row.id);
+    map.set(row.slug.toLowerCase(), row.id);
+  }
+
+  // Also load aliases from the seed JSON (stored as a field in seed but not in DB)
+  // We build the alias map at ingest time from the seed file
+  try {
+    const fs = await import("node:fs/promises");
+    const path = await import("node:path");
+    const { fileURLToPath } = await import("node:url");
+    const dir = path.default.dirname(fileURLToPath(import.meta.url));
+    const seedPath = path.default.join(dir, "../db/seed-json/assets.json");
+    const raw = await fs.default.readFile(seedPath, "utf-8");
+    const assets = JSON.parse(raw);
+    for (const a of assets) {
+      const dbRow = result.rows.find((r) => r.slug === a.slug);
+      if (!dbRow) continue;
+      for (const alias of a.aliases || []) {
+        map.set(alias.toLowerCase(), dbRow.id);
+      }
+    }
+  } catch {
+    // Seed file not available — aliases won't be matched, names/slugs still work
+  }
+
+  return map;
+}
+
+/**
+ * Try to match a trial's interventions to an asset ID.
+ * Checks intervention names against asset names and aliases.
+ */
+function matchAsset(trial, assetMap) {
+  if (!trial.interventions) return null;
+
+  for (const iv of trial.interventions) {
+    if (!iv.name) continue;
+    const lower = iv.name.toLowerCase();
+
+    // Exact match
+    if (assetMap.has(lower)) return assetMap.get(lower);
+
+    // Check if any asset name/alias is contained in the intervention name
+    for (const [key, id] of assetMap) {
+      if (key.length > 3 && lower.includes(key)) return id;
+    }
+  }
+
+  return null;
+}
+
 // ── Upsert ───────────────────────────────────────────────────────────────
 
 /**
  * Upsert a single trial row. Uses ON CONFLICT (nct_id) DO UPDATE.
  */
-async function upsertTrial(client, trial) {
+async function upsertTrial(client, trial, assetId = null) {
   const result = await client.query(
     `INSERT INTO trials (
-       nct_id, title, phase, status, sponsor_name, sponsor_class,
+       nct_id, asset_id, title, phase, status, sponsor_name, sponsor_class,
        conditions, interventions, enrollment,
        start_date, primary_completion_date, completion_date,
        countries, results_available, source_url, fetched_at
-     ) VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,now())
+     ) VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,now())
      ON CONFLICT (nct_id) DO UPDATE SET
+       asset_id = COALESCE(EXCLUDED.asset_id, trials.asset_id),
        title = EXCLUDED.title,
        phase = EXCLUDED.phase,
        status = EXCLUDED.status,
@@ -191,6 +254,7 @@ async function upsertTrial(client, trial) {
      RETURNING (xmax = 0) AS is_insert`,
     [
       trial.nct_id,
+      assetId,
       trial.title,
       trial.phase,
       trial.status,
@@ -248,14 +312,18 @@ export async function ingestTrials(opts = {}) {
 
     console.log(`[ctgov-ingest] Fetching ${condition} ${phase} trials (industry, last ${lookbackYears}y)...`);
 
-    // Build sponsor lookup
+    // Build sponsor + asset lookups
     const sponsorMap = await buildSponsorMap(client);
     console.log(`[ctgov-ingest] Loaded ${sponsorMap.size} sponsor name variants for matching`);
+
+    const assetMap = await buildAssetMap(client);
+    console.log(`[ctgov-ingest] Loaded ${assetMap.size} asset name/alias variants for matching`);
 
     let created = 0;
     let updated = 0;
     let skipped = 0;
     let matched = 0;
+    let assetLinked = 0;
 
     await client.query("BEGIN");
 
@@ -274,10 +342,11 @@ export async function ingestTrials(opts = {}) {
         const sponsorId = matchSponsor(trial.sponsor_name, sponsorMap);
         if (sponsorId) matched++;
 
-        // Note: asset_id linking is deferred to Batch 4+ when we have assets.
-        // For now we store sponsor_name and sponsor_class for later reconciliation.
+        // Try to link to an asset via intervention names
+        const assetId = matchAsset(trial, assetMap);
+        if (assetId) assetLinked++;
 
-        const action = await upsertTrial(client, trial);
+        const action = await upsertTrial(client, trial, assetId);
         if (action === "created") created++;
         else updated++;
       }
@@ -285,8 +354,8 @@ export async function ingestTrials(opts = {}) {
 
     await client.query("COMMIT");
 
-    const summary = { created, updated, skipped, matched, total: created + updated };
-    console.log(`[ctgov-ingest] Done. ${summary.total} trials (${created} new, ${updated} updated, ${skipped} skipped, ${matched} sponsor-matched)`);
+    const summary = { created, updated, skipped, matched, assetLinked, total: created + updated };
+    console.log(`[ctgov-ingest] Done. ${summary.total} trials (${created} new, ${updated} updated, ${skipped} skipped, ${matched} sponsor-matched, ${assetLinked} asset-linked)`);
 
     return summary;
   } catch (err) {

@@ -96,8 +96,8 @@ async function upsertCountrySystems(client, countries) {
 
   for (const c of countries) {
     const result = await client.query(
-      `INSERT INTO country_access_systems (country_iso, country_name, income_group, has_formal_hta, system_type, coverage_model, notes)
-       VALUES ($1, $2, $3, $4, $5, $6, $7)
+      `INSERT INTO country_access_systems (country_iso, country_name, income_group, has_formal_hta, system_type, coverage_model, notes, source_url, source_label)
+       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
        ON CONFLICT (country_iso) DO UPDATE SET
          country_name = EXCLUDED.country_name,
          income_group = EXCLUDED.income_group,
@@ -105,6 +105,8 @@ async function upsertCountrySystems(client, countries) {
          system_type = EXCLUDED.system_type,
          coverage_model = EXCLUDED.coverage_model,
          notes = EXCLUDED.notes,
+         source_url = EXCLUDED.source_url,
+         source_label = EXCLUDED.source_label,
          updated_at = now()
        RETURNING (xmax = 0) AS is_insert`,
       [
@@ -115,6 +117,8 @@ async function upsertCountrySystems(client, countries) {
         c.system_type || null,
         c.coverage_model ? JSON.stringify(c.coverage_model) : null,
         c.notes || null,
+        c.source_url || null,
+        c.source_label || null,
       ]
     );
     if (result.rows[0]?.is_insert) created++;
@@ -128,17 +132,21 @@ async function upsertPathways(client, pathways) {
   let created = 0, updated = 0;
 
   for (const pw of pathways) {
+    // Country-level source URL is the fallback for steps without their own
+    const countrySourceUrl = pw.source_url || null;
+
     for (const step of pw.steps) {
       const result = await client.query(
-        `INSERT INTO market_access_pathways (country_iso, step_order, label, institution, is_gate, typical_months, likely_blocker, notes)
-         VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
+        `INSERT INTO market_access_pathways (country_iso, step_order, label, institution, is_gate, typical_months, likely_blocker, notes, source_url)
+         VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
          ON CONFLICT (country_iso, step_order) DO UPDATE SET
            label = EXCLUDED.label,
            institution = EXCLUDED.institution,
            is_gate = EXCLUDED.is_gate,
            typical_months = EXCLUDED.typical_months,
            likely_blocker = EXCLUDED.likely_blocker,
-           notes = EXCLUDED.notes
+           notes = EXCLUDED.notes,
+           source_url = EXCLUDED.source_url
          RETURNING (xmax = 0) AS is_insert`,
         [
           pw.country_iso,
@@ -149,6 +157,7 @@ async function upsertPathways(client, pathways) {
           step.typical_months || null,
           step.likely_blocker || null,
           step.notes || null,
+          step.source_url || countrySourceUrl,
         ]
       );
       if (result.rows[0]?.is_insert) created++;
@@ -157,6 +166,50 @@ async function upsertPathways(client, pathways) {
   }
 
   return { created, updated };
+}
+
+async function upsertAssets(client, assets) {
+  let created = 0, updated = 0, skipped = 0;
+
+  // Build sponsor slug → id lookup
+  const sponsorResult = await client.query("SELECT id, slug FROM sponsors");
+  const sponsorMap = new Map(sponsorResult.rows.map((r) => [r.slug, r.id]));
+
+  for (const a of assets) {
+    const sponsorId = sponsorMap.get(a.sponsor_slug) || null;
+    if (!sponsorId) {
+      console.warn(`[seed] Asset "${a.slug}": sponsor "${a.sponsor_slug}" not found, skipping`);
+      skipped++;
+      continue;
+    }
+
+    const result = await client.query(
+      `INSERT INTO assets (slug, name, sponsor_id, modality, indications, phase, status)
+       VALUES ($1, $2, $3, $4, $5, $6, $7)
+       ON CONFLICT (slug) DO UPDATE SET
+         name = EXCLUDED.name,
+         sponsor_id = EXCLUDED.sponsor_id,
+         modality = EXCLUDED.modality,
+         indications = EXCLUDED.indications,
+         phase = EXCLUDED.phase,
+         status = EXCLUDED.status,
+         updated_at = now()
+       RETURNING (xmax = 0) AS is_insert`,
+      [
+        a.slug,
+        a.name,
+        sponsorId,
+        a.modality || null,
+        a.indications || [],
+        a.phase || null,
+        a.status || "active",
+      ]
+    );
+    if (result.rows[0]?.is_insert) created++;
+    else updated++;
+  }
+
+  return { created, updated, skipped };
 }
 
 // ── Main ──────────────────────────────────────────────────────────────────
@@ -173,10 +226,12 @@ async function main() {
     console.log("[seed] Loading seed files...");
 
     const sponsors = await loadJSON("sponsors.json");
+    const assets = await loadJSON("assets.json");
     const htaBodies = await loadJSON("hta-bodies.json");
     const countrySystems = await loadJSON("country-systems.json");
 
     console.log(`[seed] Sponsors: ${sponsors.length} records`);
+    console.log(`[seed] Assets: ${assets.length} records`);
     console.log(`[seed] HTA bodies: ${htaBodies.length} records`);
     console.log(`[seed] Countries: ${countrySystems.countries.length} records`);
     console.log(`[seed] Pathways: ${countrySystems.pathways.length} countries × steps`);
@@ -186,6 +241,10 @@ async function main() {
     // Order matters: countries must exist before pathways (FK constraint)
     const sponsorResult = await upsertSponsors(client, sponsors);
     console.log(`[seed] Sponsors: ${sponsorResult.created} created, ${sponsorResult.updated} updated`);
+
+    // Assets must come after sponsors (FK dependency)
+    const assetResult = await upsertAssets(client, assets);
+    console.log(`[seed] Assets: ${assetResult.created} created, ${assetResult.updated} updated${assetResult.skipped ? `, ${assetResult.skipped} skipped` : ""}`);
 
     const htaResult = await upsertHTABodies(client, htaBodies);
     console.log(`[seed] HTA bodies: ${htaResult.created} created, ${htaResult.updated} updated`);

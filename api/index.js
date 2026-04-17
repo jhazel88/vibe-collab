@@ -11,7 +11,7 @@ import { requestLogger, errorHandler } from "./middleware/logging.js";
 import { rateLimiter } from "./middleware/rate-limit.js";
 import { csrfProtection } from "./middleware/csrf.js";
 import { authenticate, authRoutes } from "./middleware/auth.js";
-import { healthCheck, shutdown as dbShutdown } from "./db/connection.js";
+import { healthCheck, getPool, shutdown as dbShutdown } from "./db/connection.js";
 import { status as llmStatus } from "./lib/llm-gateway.js";
 import ingestRoutes from "./routes/ingest.js";
 import sponsorRoutes from "./routes/sponsors.js";
@@ -20,6 +20,9 @@ import trialRoutes from "./routes/trials.js";
 import countryRoutes from "./routes/countries.js";
 import searchRoutes from "./routes/search.js";
 import brainRoutes from "./routes/brain.js";
+
+// Default NODE_ENV so `node api/index.js` works without manual env setup
+if (!process.env.NODE_ENV) process.env.NODE_ENV = "development";
 
 const PORT = Number(process.env.API_PORT || process.env.PORT || 3011);
 const IS_PROD = process.env.NODE_ENV === "production";
@@ -80,17 +83,30 @@ app.use("/api/auth", authRoutes);
 
 app.use("/api/ingest", ingestRoutes);
 
+// ── DB-gated middleware (503 if no database) ────────────────────────────
+
+async function requireDB(_req, res, next) {
+  const pool = await getPool();
+  if (!pool) {
+    return res.status(503).json({
+      error: "Database not available",
+      hint: "Set DATABASE_URL and run migrations",
+    });
+  }
+  next();
+}
+
 // ── Data routes ─────────────────────────────────────────────────────────
 
-app.use("/api/sponsors", sponsorRoutes);
-app.use("/api/assets", assetRoutes);
-app.use("/api/trials", trialRoutes);
-app.use("/api/countries", countryRoutes);
-app.use("/api/search", searchRoutes);
+app.use("/api/sponsors", requireDB, sponsorRoutes);
+app.use("/api/assets", requireDB, assetRoutes);
+app.use("/api/trials", requireDB, trialRoutes);
+app.use("/api/countries", requireDB, countryRoutes);
+app.use("/api/search", requireDB, searchRoutes);
 
 // ── Brain / chat routes ─────────────────────────────────────────────────
 
-app.use("/api/brain", brainRoutes);
+app.use("/api/brain", requireDB, brainRoutes);
 
 // ── Placeholder for future route mounts ─────────────────────────────────
 // Batch 6+: frontend scaffold, chat overlay, integration tests

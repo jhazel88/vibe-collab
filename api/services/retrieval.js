@@ -26,7 +26,7 @@ async function sponsorLane(userQuery, entities) {
     `SELECT slug, name, type, headquarters, financials, therapeutic_areas, website
      FROM sponsors
      WHERE name ILIKE $1 OR slug ILIKE $1
-        OR $1 ILIKE ANY(therapeutic_areas)
+        OR EXISTS (SELECT 1 FROM unnest(therapeutic_areas) AS elem WHERE elem ILIKE $1)
      ORDER BY
        CASE WHEN LOWER(name) LIKE LOWER($2) || '%' THEN 0 ELSE 1 END
      LIMIT $3`,
@@ -92,7 +92,7 @@ async function trialLane(userQuery, entities) {
       `SELECT nct_id, title, phase, status, sponsor_name, sponsor_class,
               conditions, enrollment, start_date, countries, source_url
        FROM trials
-       WHERE (title ILIKE $1 OR sponsor_name ILIKE $1 OR $1 ILIKE ANY(conditions))
+       WHERE (title ILIKE $1 OR sponsor_name ILIKE $1 OR EXISTS (SELECT 1 FROM unnest(conditions) AS elem WHERE elem ILIKE $1))
          ${existingNcts.length ? `AND nct_id != ALL($3)` : ""}
        ORDER BY start_date DESC NULLS LAST
        LIMIT $2`,
@@ -172,9 +172,9 @@ async function countryPathwayLane(userQuery, entities) {
       [iso]
     );
 
-    // Pathway steps
+    // Pathway steps (includes source_url from migration 002)
     const pathResult = await query(
-      `SELECT step_order, label, institution, is_gate, typical_months, likely_blocker, notes
+      `SELECT step_order, label, institution, is_gate, typical_months, likely_blocker, notes, source_url
        FROM market_access_pathways WHERE country_iso = $1 ORDER BY step_order`,
       [iso]
     );
@@ -194,6 +194,12 @@ async function countryPathwayLane(userQuery, entities) {
 
     const coverage = sys.coverage_model || {};
 
+    // Determine best source URL: country-level first, then first pathway step
+    const countrySourceUrl = sys.source_url || null;
+    const firstStepUrl = pathResult.rows.find((s) => s.source_url)?.source_url || null;
+    const bestSourceUrl = countrySourceUrl || firstStepUrl;
+    const bestSourceLabel = sys.source_label || `${sys.country_name} market access system`;
+
     snippets.push({
       type: "country_pathway",
       id: iso,
@@ -212,8 +218,8 @@ async function countryPathwayLane(userQuery, entities) {
         pathwaySteps || "  No pathway steps in database",
         sys.notes ? `\nNotes: ${sys.notes}` : "",
       ].filter((line) => line !== undefined).join("\n"),
-      source_url: null,
-      source_label: `${sys.country_name} market access system`,
+      source_url: bestSourceUrl,
+      source_label: bestSourceLabel,
     });
   }
 
@@ -243,5 +249,25 @@ export async function retrieve({ query: userQuery, lanes, entities = {} }) {
     .map((l) => LANE_MAP[l](userQuery, entities));
 
   const results = await Promise.all(activeLanes);
-  return results.flat();
+  const snippets = results.flat();
+
+  // Write-through: upsert unique source URLs into source_documents
+  // This is a best-effort cache — retrieval still works if this fails
+  try {
+    const seen = new Set();
+    for (const s of snippets) {
+      if (!s.source_url || seen.has(s.source_url)) continue;
+      seen.add(s.source_url);
+      await query(
+        `INSERT INTO source_documents (url, title, doc_type)
+         VALUES ($1, $2, $3)
+         ON CONFLICT (url) DO NOTHING`,
+        [s.source_url, s.source_label || null, s.type === "trial" ? "trial_record" : "pathway_source"]
+      );
+    }
+  } catch {
+    // Non-critical — source_documents is a write-through cache
+  }
+
+  return snippets;
 }

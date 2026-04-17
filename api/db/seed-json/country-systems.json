@@ -12,7 +12,9 @@
         "universal": true,
         "key_gap": "Access delays between NICE recommendation and local formulary listing"
       },
-      "notes": "Devolved health systems (Scotland/SMC, Wales/AWMSG) may have separate HTA processes"
+      "notes": "Devolved health systems (Scotland/SMC, Wales/AWMSG) may have separate HTA processes",
+      "source_url": "https://www.nice.org.uk/process/pmg9/",
+      "source_label": "NICE Guide to the processes of technology appraisal"
     },
     {
       "country_iso": "DE",
@@ -26,7 +28,9 @@
         "universal": true,
         "key_gap": "Opt-out possible after AMNOG if price negotiation fails (rare but significant)"
       },
-      "notes": "Immediate market access at launch price for first 12 months (free pricing period), then AMNOG assessment determines reimbursement price"
+      "notes": "Immediate market access at launch price for first 12 months (free pricing period), then AMNOG assessment determines reimbursement price",
+      "source_url": "https://www.g-ba.de/english/benefitassessment/",
+      "source_label": "G-BA Benefit Assessment of Pharmaceuticals (AMNOG)"
     },
     {
       "country_iso": "FR",
@@ -40,7 +44,9 @@
         "universal": true,
         "key_gap": "Long delay between MA and actual reimbursement listing (average 400-500 days)"
       },
-      "notes": "Dual rating system: SMR (absolute clinical benefit, determines reimbursement rate 15-100%) and ASMR (improvement vs existing therapy, determines price premium)"
+      "notes": "Dual rating system: SMR (absolute clinical benefit, determines reimbursement rate 15-100%) and ASMR (improvement vs existing therapy, determines price premium)",
+      "source_url": "https://www.has-sante.fr/jcms/c_412113/en/drugs",
+      "source_label": "HAS Drugs Evaluation Overview"
     }
   ],
   "pathways": [
@@ -54,7 +60,8 @@
           "is_gate": true,
           "typical_months": "12-18",
           "likely_blocker": "Clinical data package incomplete or negative benefit-risk",
-          "notes": "UK uses both national (MHRA) and EMA routes depending on product"
+          "notes": "UK uses both national (MHRA) and EMA routes depending on product",
+          "source_url": "https://www.gov.uk/guidance/apply-for-a-licence-to-market-a-medicine-in-the-uk"
         },
         {
           "step_order": 2,
@@ -63,7 +70,8 @@
           "is_gate": false,
           "typical_months": "1-2",
           "likely_blocker": null,
-          "notes": "NICE can initiate before MA is granted via early engagement"
+          "notes": "NICE can initiate before MA is granted via early engagement",
+          "source_url": "https://www.nice.org.uk/process/pmg9/chapter/scoping"
         },
         {
           "step_order": 3,
@@ -72,7 +80,8 @@
           "is_gate": false,
           "typical_months": "3-6",
           "likely_blocker": "Health economic model not accepted; ICER above willingness-to-pay threshold",
-          "notes": "Manufacturer submits clinical evidence + economic model. Evidence Review Group provides independent critique."
+          "notes": "Manufacturer submits clinical evidence + economic model. Evidence Review Group provides independent critique.",
+          "source_url": "https://www.nice.org.uk/process/pmg9/chapter/the-appraisal-process"
         },
         {
           "step_order": 4,
@@ -81,7 +90,8 @@
           "is_gate": true,
           "typical_months": "1-2",
           "likely_blocker": "Unfavourable ICER; uncertainty in clinical evidence; lack of comparator data",
-          "notes": "Committee issues Appraisal Consultation Document (ACD) or Final Appraisal Document (FAD)"
+          "notes": "Committee issues Appraisal Consultation Document (ACD) or Final Appraisal Document (FAD)",
+          "source_url": "https://www.nice.org.uk/process/pmg9/chapter/the-appraisal-process"
         },
         {
           "step_order": 5,
@@ -90,7 +100,8 @@
           "is_gate": true,
           "typical_months": "1-3",
           "likely_blocker": "Appeal by manufacturer or consultees",
-          "notes": "If recommended, NHS must fund within 90 days of publication"
+          "notes": "If recommended, NHS must fund within 90 days of publication",
+          "source_url": "https://www.nice.org.uk/process/pmg9/chapter/the-appraisal-process"
         },
         {
           "step_order": 6,
@@ -99,7 +110,8 @@
           "is_gate": false,
           "typical_months": "1-3",
           "likely_blocker": "Budget impact concerns; managed access agreement negotiations",
-          "notes": "Patient access schemes, managed access agreements, and commercial arrangements negotiated here"
+          "notes": "Patient access schemes, managed access agreements, and commercial arrangements negotiated here",
+          "source_url": "https://www.england.nhs.uk/medicines-2/commercial-medicines/"
         },
         {
           "step_order": 7,
@@ -108,7 +120,8 @@
           "is_gate": false,
           "typical_months": "1-6",
           "likely_blocker": "Local budget constraints; pathway redesign needed",
-          "notes": "Even with NICE recommendation, local uptake can vary significantly"
+          "notes": "Even with NICE recommendation, local uptake can vary significantly",
+          "source_url": "https://www.nice.org.uk/process/pmg9/chapter/implementation"
         },
         {
           "step_order": 8,
@@ -117,7 +130,8 @@
           "is_gate": false,
           "typical_months": "0-1",
           "likely_blocker": "Prescriber awareness; patient identification",
-          "notes": "End of pathway — medicine available to eligible patients"
+          "notes": "End of pathway — medicine available to eligible patients",
+          "source_url": "https://www.nice.org.uk/process/pmg9/"
         }
       ]
     },
@@ -131,7 +145,8 @@
           "is_gate": true,
           "typical_months": "12-18",
           "likely_blocker": "Clinical data package incomplete",
-          "notes": "Most new active substances use EMA centralized procedure"
+          "notes": "Most new active substances use EMA centralized procedure",
+          "source_url": "https://www.ema.europa.eu/en/authorisation-procedures"
         },
         {
           "step_order": 2,
@@ -140,7 +155,8 @@
           "is_gate": false,
           "typical_months": "0-1",
           "likely_blocker": null,
-          "notes": "Germany guarantees immediate market access at manufacturer-set price for first 12 months (unique in EU)"
+          "notes": "Germany guarantees immediate market access at manufacturer-set price for first 12 months (unique in EU)",
+          "source_url": "https://www.g-ba.de/english/benefitassessment/"
         },
         {
           "step_order": 3,
@@ -149,7 +165,8 @@
           "is_gate": true,
           "typical_months": "0-1",
           "likely_blocker": "Incomplete dossier; wrong comparator chosen",
-          "notes": "Manufacturer must submit benefit dossier at launch. G-BA assigns to IQWiG or does own assessment."
+          "notes": "Manufacturer must submit benefit dossier at launch. G-BA assigns to IQWiG or does own assessment.",
+          "source_url": "https://www.g-ba.de/english/benefitassessment/"
         },
         {
           "step_order": 4,
@@ -158,7 +175,8 @@
           "is_gate": false,
           "typical_months": "3",
           "likely_blocker": "No additional benefit vs appropriate comparator",
-          "notes": "IQWiG assesses added benefit on 6-point scale: major, considerable, minor, non-quantifiable, no added benefit, less benefit"
+          "notes": "IQWiG assesses added benefit on 6-point scale: major, considerable, minor, non-quantifiable, no added benefit, less benefit",
+          "source_url": "https://www.iqwig.de/en/about-us/methods/methods-papers/"
         },
         {
           "step_order": 5,
@@ -167,7 +185,8 @@
           "is_gate": true,
           "typical_months": "3",
           "likely_blocker": "G-BA disagrees with IQWiG; assigns no added benefit",
-          "notes": "G-BA makes final determination of added benefit at 6 months post-launch. Determines whether price negotiation or reference pricing applies."
+          "notes": "G-BA makes final determination of added benefit at 6 months post-launch. Determines whether price negotiation or reference pricing applies.",
+          "source_url": "https://www.g-ba.de/english/benefitassessment/"
         },
         {
           "step_order": 6,
@@ -176,7 +195,8 @@
           "is_gate": true,
           "typical_months": "6",
           "likely_blocker": "Negotiation impasse → arbitration board",
-          "notes": "If added benefit confirmed: price negotiation. If no added benefit: assigned to reference price group. Manufacturer may opt out (withdraw)."
+          "notes": "If added benefit confirmed: price negotiation. If no added benefit: assigned to reference price group. Manufacturer may opt out (withdraw).",
+          "source_url": "https://www.gkv-spitzenverband.de/english/statutory_health_insurance/statutory_health_insurance.jsp"
         },
         {
           "step_order": 7,
@@ -185,7 +205,8 @@
           "is_gate": false,
           "typical_months": "0-1",
           "likely_blocker": "Manufacturer opt-out (product withdrawal from German market)",
-          "notes": "Negotiated price replaces free-pricing period. Retroactive rebates may apply from month 7."
+          "notes": "Negotiated price replaces free-pricing period. Retroactive rebates may apply from month 7.",
+          "source_url": "https://www.g-ba.de/english/benefitassessment/"
         },
         {
           "step_order": 8,
@@ -194,7 +215,8 @@
           "is_gate": false,
           "typical_months": "0",
           "likely_blocker": "Prescribing quotas (Richtgrößen); aut idem substitution for generics",
-          "notes": "Patient has been accessing since step 2; this step reflects access at final negotiated price"
+          "notes": "Patient has been accessing since step 2; this step reflects access at final negotiated price",
+          "source_url": "https://www.g-ba.de/english/benefitassessment/"
         }
       ]
     },
@@ -208,7 +230,8 @@
           "is_gate": true,
           "typical_months": "12-18",
           "likely_blocker": "Clinical data package incomplete",
-          "notes": "Most innovative medicines use EMA centralized procedure"
+          "notes": "Most innovative medicines use EMA centralized procedure",
+          "source_url": "https://www.ema.europa.eu/en/authorisation-procedures"
         },
         {
           "step_order": 2,
@@ -217,7 +240,8 @@
           "is_gate": false,
           "typical_months": "0-3",
           "likely_blocker": "Product does not meet presumed innovation threshold",
-          "notes": "Optional. Available for innovative medicines with unmet need before formal HTA. Replaced former ATU system in 2021."
+          "notes": "Optional. Available for innovative medicines with unmet need before formal HTA. Replaced former ATU system in 2021.",
+          "source_url": "https://www.has-sante.fr/jcms/p_3237252/en/early-access-authorisation-for-medicinal-products"
         },
         {
           "step_order": 3,
@@ -226,7 +250,8 @@
           "is_gate": true,
           "typical_months": "3-6",
           "likely_blocker": "Insufficient SMR rating (insufficient clinical benefit)",
-          "notes": "Dual rating: SMR (clinical benefit, 4 levels) determines if reimbursed and at what rate. ASMR (improvement, 5 levels I-V) determines price premium."
+          "notes": "Dual rating: SMR (clinical benefit, 4 levels) determines if reimbursed and at what rate. ASMR (improvement, 5 levels I-V) determines price premium.",
+          "source_url": "https://www.has-sante.fr/jcms/c_412113/en/drugs"
         },
         {
           "step_order": 4,
@@ -235,7 +260,8 @@
           "is_gate": true,
           "typical_months": "1-2",
           "likely_blocker": "SMR insuffisant = no reimbursement; ASMR V = no improvement = reference pricing",
-          "notes": "SMR sufficient → reimbursed. ASMR I-III → significant improvement → higher price possible. ASMR IV-V → price must be below or equal to comparators."
+          "notes": "SMR sufficient → reimbursed. ASMR I-III → significant improvement → higher price possible. ASMR IV-V → price must be below or equal to comparators.",
+          "source_url": "https://www.has-sante.fr/jcms/c_412113/en/drugs"
         },
         {
           "step_order": 5,
@@ -244,7 +270,8 @@
           "is_gate": true,
           "typical_months": "6-12",
           "likely_blocker": "Price agreement cannot be reached; budget impact too high",
-          "notes": "CEPS negotiates manufacturer price based on ASMR, comparator prices, EU reference prices, and expected volumes. Can take 6-18 months."
+          "notes": "CEPS negotiates manufacturer price based on ASMR, comparator prices, EU reference prices, and expected volumes. Can take 6-18 months.",
+          "source_url": "https://sante.gouv.fr/ministere/acteurs/instances-rattachees/article/ceps-comite-economique-des-produits-de-sante"
         },
         {
           "step_order": 6,
@@ -253,7 +280,8 @@
           "is_gate": false,
           "typical_months": "1-2",
           "likely_blocker": null,
-          "notes": "Official publication of reimbursement listing and price in the Journal Officiel"
+          "notes": "Official publication of reimbursement listing and price in the Journal Officiel",
+          "source_url": "https://www.legifrance.gouv.fr/"
         },
         {
           "step_order": 7,
@@ -262,7 +290,8 @@
           "is_gate": false,
           "typical_months": "0-1",
           "likely_blocker": null,
-          "notes": "Reimbursement rate set based on SMR: 65% (important), 30% (moderate), 15% (low). 100% for irreplaceable and costly medicines (ALD)."
+          "notes": "Reimbursement rate set based on SMR: 65% (important), 30% (moderate), 15% (low). 100% for irreplaceable and costly medicines (ALD).",
+          "source_url": "https://www.ameli.fr/"
         },
         {
           "step_order": 8,
@@ -271,7 +300,8 @@
           "is_gate": false,
           "typical_months": "0-1",
           "likely_blocker": "Prescriber awareness; hospital listing committees for hospital medicines",
-          "notes": "Medicine available on prescription. Hospital medicines may require additional T2A listing."
+          "notes": "Medicine available on prescription. Hospital medicines may require additional T2A listing.",
+          "source_url": "https://www.has-sante.fr/jcms/c_412113/en/drugs"
         }
       ]
     }

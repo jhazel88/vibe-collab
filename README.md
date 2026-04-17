@@ -16,19 +16,22 @@ R&D pipeline tracker with HTA market access pathways and AI-assisted analysis. S
 
 - Unified search across sponsors, assets, trials, and countries
 - Sponsor detail pages with financials, therapeutic areas, and linked trials
+- Asset detail pages with indications, modality, linked sponsor, and trial list
+- Trial detail pages with full metadata, interventions, countries, and ClinicalTrials.gov link
 - Country pages with HTA body grid and interactive pathway timeline (gate steps highlighted, blockers flagged)
 - Collapsible chat panel with context-aware prompting, citation badges, confidence indicators, and follow-up suggestions
 
 **Seed data**
 
 - 220 pharmaceutical company profiles
-- 7 HTA bodies (NICE, SMC, G-BA, IQWiG, HAS, CEESP, CT)
-- 3 country access systems (UK, Germany, France) with structured multi-step market access pathways
+- 25 oncology assets (pembrolizumab, nivolumab, trastuzumab, osimertinib, etc.) with aliases for CT.gov matching
+- 7 HTA bodies (NICE, SMC, G-BA, IQWiG, HAS, CEPS, UNCAM)
+- 3 country access systems (UK, Germany, France) with structured multi-step market access pathways and source URLs
 
 ## Prerequisites
 
 - **Node.js** 18+ (tested on 22)
-- **PostgreSQL** 14+ with a database created for the project
+- **PostgreSQL** 14+ with a database created for the project (required — all data routes return 503 without it)
 - At least one LLM API key (Anthropic or OpenAI) for chat functionality
 
 ## Quick start
@@ -158,6 +161,8 @@ vibe-collab/
 │   └── pages/
 │       ├── SearchPage.jsx       # Unified search with grouped results
 │       ├── SponsorPage.jsx      # Sponsor detail view
+│       ├── AssetPage.jsx        # Asset detail with trials
+│       ├── TrialPage.jsx        # Trial detail view
 │       └── CountryPage.jsx      # Country + HTA pathway view
 ├── donor-notes/                 # Provenance notes for code lifted from donor repos
 ├── data/raw/                    # Raw research data (independent track)

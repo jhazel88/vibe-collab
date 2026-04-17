@@ -21,10 +21,10 @@ export default function SponsorPage({ slug, onNavigate }) {
         if (cancelled) return;
         setSponsor(res.data);
 
-        // Fetch trials by sponsor name
-        if (res.data.name) {
+        // Fetch trials linked to this sponsor by sponsor_id
+        if (res.data.id) {
           try {
-            const trialRes = await getTrials({ q: res.data.name, limit: 20 });
+            const trialRes = await getTrials({ sponsor_id: res.data.id, limit: 30 });
             if (!cancelled) setTrials(trialRes.data || []);
           } catch {
             // Non-critical — sponsor page still useful without trials

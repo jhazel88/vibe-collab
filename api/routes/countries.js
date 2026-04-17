@@ -23,6 +23,10 @@ const router = Router();
  */
 router.get("/", async (req, res, next) => {
   try {
+    const page = Math.max(1, parseInt(req.query.page, 10) || 1);
+    const limit = Math.min(200, Math.max(1, parseInt(req.query.limit, 10) || 50));
+    const offset = (page - 1) * limit;
+
     const conditions = [];
     const params = [];
     let paramIdx = 0;
@@ -53,17 +57,27 @@ router.get("/", async (req, res, next) => {
 
     const where = conditions.length ? `WHERE ${conditions.join(" AND ")}` : "";
 
+    const countResult = await query(
+      `SELECT COUNT(*) AS total FROM country_access_systems c ${where}`,
+      params
+    );
+    const total = parseInt(countResult.rows[0].total, 10);
+
     const result = await query(
       `SELECT c.*,
               (SELECT COUNT(*) FROM hta_bodies h WHERE h.country_iso = c.country_iso) AS hta_body_count,
               (SELECT COUNT(*) FROM market_access_pathways p WHERE p.country_iso = c.country_iso) AS pathway_step_count
        FROM country_access_systems c
        ${where}
-       ORDER BY c.country_name ASC`
-      , params
+       ORDER BY c.country_name ASC
+       LIMIT $${paramIdx + 1} OFFSET $${paramIdx + 2}`,
+      [...params, limit, offset]
     );
 
-    res.json({ data: result.rows });
+    res.json({
+      data: result.rows,
+      pagination: { page, limit, total, pages: Math.ceil(total / limit) },
+    });
   } catch (err) {
     next(err);
   }

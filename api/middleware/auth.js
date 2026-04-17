@@ -96,7 +96,7 @@ const DEV_USER = {
   sub: "dev-user-001",
   email: "dev@hta.local",
   name: "Dev User",
-  role: "admin",
+  role: process.env.DEV_ADMIN === "true" ? "admin" : "viewer",
 };
 
 function getDevUser(req) {

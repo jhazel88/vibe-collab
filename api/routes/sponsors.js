@@ -44,7 +44,7 @@ router.get("/", async (req, res, next) => {
 
     if (req.query.area) {
       paramIdx++;
-      conditions.push(`$${paramIdx} ILIKE ANY(therapeutic_areas)`);
+      conditions.push(`EXISTS (SELECT 1 FROM unnest(therapeutic_areas) AS elem WHERE elem ILIKE $${paramIdx})`);
       params.push(`%${req.query.area}%`);
     }
 

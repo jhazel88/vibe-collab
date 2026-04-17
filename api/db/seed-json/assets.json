@@ -1,0 +1,252 @@
+[
+  {
+    "slug": "pembrolizumab",
+    "name": "Pembrolizumab",
+    "sponsor_slug": "merck",
+    "modality": "biologic",
+    "indications": ["Non-Small Cell Lung Cancer", "Melanoma", "Head and Neck Cancer", "Urothelial Carcinoma", "Gastric Cancer", "Cervical Cancer"],
+    "phase": "approved",
+    "status": "active",
+    "aliases": ["Keytruda", "MK-3475"]
+  },
+  {
+    "slug": "nivolumab",
+    "name": "Nivolumab",
+    "sponsor_slug": "bms",
+    "modality": "biologic",
+    "indications": ["Non-Small Cell Lung Cancer", "Melanoma", "Renal Cell Carcinoma", "Hepatocellular Carcinoma", "Urothelial Carcinoma"],
+    "phase": "approved",
+    "status": "active",
+    "aliases": ["Opdivo", "BMS-936558"]
+  },
+  {
+    "slug": "atezolizumab",
+    "name": "Atezolizumab",
+    "sponsor_slug": "roche",
+    "modality": "biologic",
+    "indications": ["Non-Small Cell Lung Cancer", "Urothelial Carcinoma", "Hepatocellular Carcinoma", "Small Cell Lung Cancer"],
+    "phase": "approved",
+    "status": "active",
+    "aliases": ["Tecentriq", "MPDL3280A"]
+  },
+  {
+    "slug": "durvalumab",
+    "name": "Durvalumab",
+    "sponsor_slug": "astrazeneca",
+    "modality": "biologic",
+    "indications": ["Non-Small Cell Lung Cancer", "Small Cell Lung Cancer", "Biliary Tract Cancer", "Hepatocellular Carcinoma"],
+    "phase": "approved",
+    "status": "active",
+    "aliases": ["Imfinzi", "MEDI4736"]
+  },
+  {
+    "slug": "trastuzumab",
+    "name": "Trastuzumab",
+    "sponsor_slug": "roche",
+    "modality": "biologic",
+    "indications": ["Breast Cancer", "Gastric Cancer"],
+    "phase": "approved",
+    "status": "active",
+    "aliases": ["Herceptin"]
+  },
+  {
+    "slug": "trastuzumab-deruxtecan",
+    "name": "Trastuzumab Deruxtecan",
+    "sponsor_slug": "daiichi-sankyo",
+    "modality": "biologic",
+    "indications": ["Breast Cancer", "Non-Small Cell Lung Cancer", "Gastric Cancer", "Colorectal Cancer"],
+    "phase": "approved",
+    "status": "active",
+    "aliases": ["Enhertu", "T-DXd", "DS-8201"]
+  },
+  {
+    "slug": "bevacizumab",
+    "name": "Bevacizumab",
+    "sponsor_slug": "roche",
+    "modality": "biologic",
+    "indications": ["Colorectal Cancer", "Non-Small Cell Lung Cancer", "Ovarian Cancer", "Cervical Cancer", "Renal Cell Carcinoma"],
+    "phase": "approved",
+    "status": "active",
+    "aliases": ["Avastin"]
+  },
+  {
+    "slug": "rituximab",
+    "name": "Rituximab",
+    "sponsor_slug": "roche",
+    "modality": "biologic",
+    "indications": ["Non-Hodgkin Lymphoma", "Chronic Lymphocytic Leukemia"],
+    "phase": "approved",
+    "status": "active",
+    "aliases": ["MabThera", "Rituxan"]
+  },
+  {
+    "slug": "osimertinib",
+    "name": "Osimertinib",
+    "sponsor_slug": "astrazeneca",
+    "modality": "small molecule",
+    "indications": ["Non-Small Cell Lung Cancer"],
+    "phase": "approved",
+    "status": "active",
+    "aliases": ["Tagrisso", "AZD9291"]
+  },
+  {
+    "slug": "olaparib",
+    "name": "Olaparib",
+    "sponsor_slug": "astrazeneca",
+    "modality": "small molecule",
+    "indications": ["Ovarian Cancer", "Breast Cancer", "Prostate Cancer", "Pancreatic Cancer"],
+    "phase": "approved",
+    "status": "active",
+    "aliases": ["Lynparza", "AZD2281"]
+  },
+  {
+    "slug": "palbociclib",
+    "name": "Palbociclib",
+    "sponsor_slug": "pfizer",
+    "modality": "small molecule",
+    "indications": ["Breast Cancer"],
+    "phase": "approved",
+    "status": "active",
+    "aliases": ["Ibrance", "PD-0332991"]
+  },
+  {
+    "slug": "ribociclib",
+    "name": "Ribociclib",
+    "sponsor_slug": "novartis",
+    "modality": "small molecule",
+    "indications": ["Breast Cancer"],
+    "phase": "approved",
+    "status": "active",
+    "aliases": ["Kisqali", "LEE011"]
+  },
+  {
+    "slug": "lenvatinib",
+    "name": "Lenvatinib",
+    "sponsor_slug": "eisai",
+    "modality": "small molecule",
+    "indications": ["Thyroid Cancer", "Hepatocellular Carcinoma", "Endometrial Cancer", "Renal Cell Carcinoma"],
+    "phase": "approved",
+    "status": "active",
+    "aliases": ["Lenvima", "E7080"]
+  },
+  {
+    "slug": "sotorasib",
+    "name": "Sotorasib",
+    "sponsor_slug": "amgen",
+    "modality": "small molecule",
+    "indications": ["Non-Small Cell Lung Cancer"],
+    "phase": "approved",
+    "status": "active",
+    "aliases": ["Lumakras", "AMG 510"]
+  },
+  {
+    "slug": "sacituzumab-govitecan",
+    "name": "Sacituzumab Govitecan",
+    "sponsor_slug": "gilead",
+    "modality": "biologic",
+    "indications": ["Breast Cancer", "Urothelial Carcinoma"],
+    "phase": "approved",
+    "status": "active",
+    "aliases": ["Trodelvy", "IMMU-132"]
+  },
+  {
+    "slug": "encorafenib",
+    "name": "Encorafenib",
+    "sponsor_slug": "pfizer",
+    "modality": "small molecule",
+    "indications": ["Melanoma", "Colorectal Cancer"],
+    "phase": "approved",
+    "status": "active",
+    "aliases": ["Braftovi", "LGX818"]
+  },
+  {
+    "slug": "zanubrutinib",
+    "name": "Zanubrutinib",
+    "sponsor_slug": "beigene",
+    "modality": "small molecule",
+    "indications": ["Mantle Cell Lymphoma", "Chronic Lymphocytic Leukemia", "Waldenström Macroglobulinemia"],
+    "phase": "approved",
+    "status": "active",
+    "aliases": ["Brukinsa", "BGB-3111"]
+  },
+  {
+    "slug": "tislelizumab",
+    "name": "Tislelizumab",
+    "sponsor_slug": "beigene",
+    "modality": "biologic",
+    "indications": ["Non-Small Cell Lung Cancer", "Hepatocellular Carcinoma", "Esophageal Cancer"],
+    "phase": "approved",
+    "status": "active",
+    "aliases": ["Tevimbra", "BGB-A317"]
+  },
+  {
+    "slug": "datopotamab-deruxtecan",
+    "name": "Datopotamab Deruxtecan",
+    "sponsor_slug": "daiichi-sankyo",
+    "modality": "biologic",
+    "indications": ["Non-Small Cell Lung Cancer", "Breast Cancer"],
+    "phase": "phase3",
+    "status": "active",
+    "aliases": ["Datroway", "Dato-DXd", "DS-1062"]
+  },
+  {
+    "slug": "capivasertib",
+    "name": "Capivasertib",
+    "sponsor_slug": "astrazeneca",
+    "modality": "small molecule",
+    "indications": ["Breast Cancer"],
+    "phase": "approved",
+    "status": "active",
+    "aliases": ["Truqap", "AZD5363"]
+  },
+  {
+    "slug": "adagrasib",
+    "name": "Adagrasib",
+    "sponsor_slug": "bms",
+    "modality": "small molecule",
+    "indications": ["Non-Small Cell Lung Cancer", "Colorectal Cancer"],
+    "phase": "approved",
+    "status": "active",
+    "aliases": ["Krazati", "MRTX849"]
+  },
+  {
+    "slug": "tarlatamab",
+    "name": "Tarlatamab",
+    "sponsor_slug": "amgen",
+    "modality": "biologic",
+    "indications": ["Small Cell Lung Cancer"],
+    "phase": "approved",
+    "status": "active",
+    "aliases": ["Imdelltra", "AMG 757"]
+  },
+  {
+    "slug": "zolbetuximab",
+    "name": "Zolbetuximab",
+    "sponsor_slug": "astellas",
+    "modality": "biologic",
+    "indications": ["Gastric Cancer", "Gastroesophageal Junction Adenocarcinoma"],
+    "phase": "approved",
+    "status": "active",
+    "aliases": ["Vyloy", "IMAB362"]
+  },
+  {
+    "slug": "inavolisib",
+    "name": "Inavolisib",
+    "sponsor_slug": "roche",
+    "modality": "small molecule",
+    "indications": ["Breast Cancer"],
+    "phase": "approved",
+    "status": "active",
+    "aliases": ["Itovebi", "GDC-0077"]
+  },
+  {
+    "slug": "camizestrant",
+    "name": "Camizestrant",
+    "sponsor_slug": "astrazeneca",
+    "modality": "small molecule",
+    "indications": ["Breast Cancer"],
+    "phase": "phase3",
+    "status": "active",
+    "aliases": ["AZD9833"]
+  }
+]

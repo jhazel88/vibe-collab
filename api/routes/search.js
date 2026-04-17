@@ -43,7 +43,7 @@ router.get("/", async (req, res, next) => {
         `SELECT slug, name, type, headquarters, therapeutic_areas
          FROM sponsors
          WHERE name ILIKE $1 OR slug ILIKE $1
-            OR $1 ILIKE ANY(therapeutic_areas)
+            OR EXISTS (SELECT 1 FROM unnest(therapeutic_areas) AS elem WHERE elem ILIKE $1)
          ORDER BY
            CASE WHEN LOWER(name) = LOWER($2) THEN 0
                 WHEN LOWER(name) LIKE LOWER($2) || '%' THEN 1
@@ -83,7 +83,7 @@ router.get("/", async (req, res, next) => {
          WHERE title ILIKE $1
             OR nct_id ILIKE $1
             OR sponsor_name ILIKE $1
-            OR $1 ILIKE ANY(conditions)
+            OR EXISTS (SELECT 1 FROM unnest(conditions) AS elem WHERE elem ILIKE $1)
          ORDER BY
            CASE WHEN nct_id ILIKE $2 THEN 0
                 WHEN LOWER(sponsor_name) = LOWER($2) THEN 1
