@@ -1,0 +1,3557 @@
+[
+  {
+    "nct_id": "NCT06743126",
+    "title": "SUPRAME-ACTengine® IMA203 vs. Investigator's Choice of Treatment in Previously Treated, Unresectable or Metastatic Cutaneous Melanoma",
+    "phase": "Phase 3",
+    "status": "RECRUITING",
+    "sponsor": "Immatics US, Inc.",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Melanoma, Cutaneous Malignant"
+    ],
+    "interventions": [
+      {
+        "name": "IMA203",
+        "type": "BIOLOGICAL"
+      },
+      {
+        "name": "nivolumab plus relatlimab",
+        "type": "BIOLOGICAL"
+      },
+      {
+        "name": "lifileucel",
+        "type": "BIOLOGICAL"
+      },
+      {
+        "name": "nivolumab",
+        "type": "BIOLOGICAL"
+      },
+      {
+        "name": "pembrolizumab",
+        "type": "BIOLOGICAL"
+      },
+      {
+        "name": "ipilimumab",
+        "type": "BIOLOGICAL"
+      },
+      {
+        "name": "Dacarbazine",
+        "type": "DRUG"
+      },
+      {
+        "name": "temozolomide",
+        "type": "DRUG"
+      },
+      {
+        "name": "paclitaxel",
+        "type": "DRUG"
+      },
+      {
+        "name": "paclitaxel plus carboplatin",
+        "type": "DRUG"
+      },
+      {
+        "name": "Albumin-Bound Paclitaxel",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2025-01-14",
+    "primary_completion_date": "2028-01",
+    "enrollment": 360,
+    "countries": [
+      "Canada",
+      "Germany",
+      "United Kingdom",
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT04668885",
+    "title": "CPX-351 as a Novel Approach for the Treatment of Older Patients With AML and MDS",
+    "phase": "Phase 2",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "Case Comprehensive Cancer Center",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Refractory Acute Myeloid Leukemia",
+      "Relapsed Acute Myelomonocytic Leukemia",
+      "Myelodysplastic Syndromes"
+    ],
+    "interventions": [
+      {
+        "name": "CPX-351",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2021-01-14",
+    "primary_completion_date": "2025-10-10",
+    "enrollment": 13,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT06060613",
+    "title": "Safety and Efficacy of OBX-115 in Advanced Solid Tumors",
+    "phase": "Phase 1/Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Obsidian Therapeutics, Inc.",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Tumor Skin",
+      "Metastatic Melanoma",
+      "Melanoma",
+      "Lung Cancer",
+      "Metastatic Lung Cancer",
+      "Non Small Cell Lung Cancer",
+      "Metastatic Non Small Cell Lung Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "OBX-115",
+        "type": "BIOLOGICAL"
+      }
+    ],
+    "start_date": "2023-10-25",
+    "primary_completion_date": "2028-06-30",
+    "enrollment": 208,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT04535713",
+    "title": "GALLANT: Metronomic Gemcitabine, Doxorubicin, Docetaxel and Nivolumab for Advanced Sarcoma",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Sarcoma Oncology Research Center, LLC",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Sarcoma"
+    ],
+    "interventions": [
+      {
+        "name": "Gemcitabine",
+        "type": "DRUG"
+      },
+      {
+        "name": "Doxorubicin",
+        "type": "DRUG"
+      },
+      {
+        "name": "Docetaxel",
+        "type": "DRUG"
+      },
+      {
+        "name": "Nivolumab",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2020-09-30",
+    "primary_completion_date": "2025-09-30",
+    "enrollment": 260,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT04464226",
+    "title": "Study to Continue Treatment With Darolutamide in Patients Who Have Been Participating in Previous Darolutamide Studies Supported by Bayer",
+    "phase": "Phase 3",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "Bayer",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "Darolutamide (Nubeqa, BAY1841788)",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2020-10-20",
+    "primary_completion_date": "2028-06-26",
+    "enrollment": 402,
+    "countries": [
+      "Argentina",
+      "Australia",
+      "Austria",
+      "Belarus",
+      "Belgium",
+      "Brazil",
+      "Bulgaria",
+      "Canada",
+      "China",
+      "Colombia",
+      "Czechia",
+      "Estonia",
+      "Finland",
+      "France",
+      "Germany",
+      "Hungary",
+      "Israel",
+      "Italy",
+      "Japan",
+      "Latvia",
+      "Lithuania",
+      "Mexico",
+      "Netherlands",
+      "Peru",
+      "Poland",
+      "Portugal",
+      "Romania",
+      "Russia",
+      "Serbia",
+      "Slovakia",
+      "South Africa",
+      "South Korea",
+      "Spain",
+      "Sweden",
+      "Taiwan",
+      "Turkey (Türkiye)",
+      "Ukraine",
+      "United Kingdom",
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT04539808",
+    "title": "NeoOPTIMIZE: Early Switching of mFOLFIRINOX or Gemcitabine/Nab-Paclitaxel Before Surgery for the Treatment of Resectable, Borderline Resectable, or Locally-Advanced Unresectable Pancreatic Cancer",
+    "phase": "Phase 2",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "OHSU Knight Cancer Institute",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Pancreatic Adenocarcinoma",
+      "Stage 0 Pancreatic Cancer American Joint Committee on Cancer v8",
+      "Stage I Pancreatic Cancer American Joint Committee on Cancer v8",
+      "Stage III Pancreatic Cancer American Joint Committee on Cancer v8",
+      "Stage IV Pancreatic Cancer American Joint Committee on Cancer v8"
+    ],
+    "interventions": [
+      {
+        "name": "Capecitabine",
+        "type": "DRUG"
+      },
+      {
+        "name": "Fluorouracil",
+        "type": "DRUG"
+      },
+      {
+        "name": "Irinotecan Hydrochloride",
+        "type": "DRUG"
+      },
+      {
+        "name": "Leucovorin Calcium",
+        "type": "DRUG"
+      },
+      {
+        "name": "Losartan Potassium",
+        "type": "DRUG"
+      },
+      {
+        "name": "Oxaliplatin",
+        "type": "DRUG"
+      },
+      {
+        "name": "Radiation Therapy",
+        "type": "RADIATION"
+      },
+      {
+        "name": "Resection",
+        "type": "PROCEDURE"
+      },
+      {
+        "name": "Diagnostic Imaging",
+        "type": "PROCEDURE"
+      },
+      {
+        "name": "Biospecimen Collection",
+        "type": "PROCEDURE"
+      },
+      {
+        "name": "Gemcitabine",
+        "type": "DRUG"
+      },
+      {
+        "name": "Nab paclitaxel",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2021-05-27",
+    "primary_completion_date": "2024-12-08",
+    "enrollment": 42,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT06730308",
+    "title": "Glucocorticoids Combined With Concurrent Chemoradiotherapy for Unresectable Thymoma",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Sun Yat-sen University",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Thymoma"
+    ],
+    "interventions": [
+      {
+        "name": "Radiotherapy",
+        "type": "RADIATION"
+      },
+      {
+        "name": "Concurrent chemotherapy",
+        "type": "DRUG"
+      },
+      {
+        "name": "Methylprednisolone",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2024-11-20",
+    "primary_completion_date": "2028-11-19",
+    "enrollment": 45,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "nct_id": "NCT02978625",
+    "title": "Talimogene Laherparepvec and Nivolumab in Treating Patients With Refractory Lymphomas or Advanced or Refractory Non-melanoma Skin Cancers",
+    "phase": "Phase 2",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "National Cancer Institute (NCI)",
+    "sponsor_class": "NIH",
+    "conditions": [
+      "Anaplastic Large Cell Lymphoma, ALK-Negative",
+      "Anaplastic Large Cell Lymphoma, ALK-Positive",
+      "Apocrine Carcinoma",
+      "Carcinoma Arising From Cylindroma",
+      "Carcinoma Arising From Spiradenoma",
+      "Digital Papillary Adenocarcinoma",
+      "Endocrine Mucin-Producing Sweat Gland Carcinoma",
+      "Extramammary Paget Disease",
+      "Extraocular Sebaceous Carcinoma",
+      "Hidradenocarcinoma",
+      "Malignant Sweat Gland Neoplasm",
+      "Merkel Cell Carcinoma",
+      "Microcystic Adnexal Carcinoma",
+      "NK-Cell Lymphoma, Unclassifiable",
+      "Papillary Adenocarcinoma",
+      "Porocarcinoma",
+      "Primary Cutaneous Mucinous Carcinoma",
+      "Recurrent Mature T-Cell and NK-Cell Non-Hodgkin Lymphoma",
+      "Recurrent T-Cell Non-Hodgkin Lymphoma",
+      "Refractory Anaplastic Large Cell Lymphoma",
+      "Refractory Mature T-Cell and NK-Cell Non-Hodgkin Lymphoma",
+      "Refractory Merkel Cell Carcinoma",
+      "Refractory Mycosis Fungoides",
+      "Refractory Primary Cutaneous T-Cell Non-Hodgkin Lymphoma",
+      "Refractory Skin Squamous Cell Carcinoma",
+      "Refractory T-Cell Non-Hodgkin Lymphoma",
+      "Sezary Syndrome",
+      "Signet Ring Cell Adenocarcinoma",
+      "Skin Adenoid Cystic Carcinoma",
+      "Skin Adnexal Carcinoma",
+      "Skin Basal Cell Carcinoma",
+      "Skin Basosquamous Cell Carcinoma",
+      "Skin Keratoacanthoma",
+      "Skin Squamous Cell Carcinoma",
+      "Squamoid Eccrine Ductal Carcinoma",
+      "Squamous Cell Carcinoma of Unknown Primary",
+      "Sweat Gland Carcinoma",
+      "Trichilemmal Carcinoma",
+      "Vulvar Squamous Cell Carcinoma"
+    ],
+    "interventions": [
+      {
+        "name": "Biopsy Procedure",
+        "type": "PROCEDURE"
+      },
+      {
+        "name": "Biospecimen Collection",
+        "type": "PROCEDURE"
+      },
+      {
+        "name": "Computed Tomography",
+        "type": "PROCEDURE"
+      },
+      {
+        "name": "Laboratory Biomarker Analysis",
+        "type": "OTHER"
+      },
+      {
+        "name": "Nivolumab",
+        "type": "BIOLOGICAL"
+      },
+      {
+        "name": "Positron Emission Mammography",
+        "type": "PROCEDURE"
+      },
+      {
+        "name": "Talimogene Laherparepvec",
+        "type": "BIOLOGICAL"
+      }
+    ],
+    "start_date": "2017-09-27",
+    "primary_completion_date": "2027-09-01",
+    "enrollment": 68,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT01064635",
+    "title": "Letrozole in Treating Breast Cancer in Postmenopausal Women With Stage I, II, or III Breast Cancer Previously Treated With Tamoxifen (GIM4)",
+    "phase": "Phase 3",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "IRCCS Azienda Ospedaliera Universitaria San Martino - IST Istituto Nazionale per la Ricerca sul Cancro, Genoa, Italy",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Breast Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "Letrozole",
+        "type": "DRUG"
+      },
+      {
+        "name": "Letrozole",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2005-08",
+    "primary_completion_date": "2015-08",
+    "enrollment": 2056,
+    "countries": [
+      "Italy"
+    ]
+  },
+  {
+    "nct_id": "NCT05219318",
+    "title": "Treatment Pause Versus Treatment Continuation in IMDC Good or Intermediate Risk With Only One Adverse Prognostic Factor in mRCC Patients With an Objective Response at 12 Months of Treatment With PD1/ PDL1 ICIs + VEGFR-Tyrosine Kinase Inhibitors",
+    "phase": "Phase 3",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "University Hospital, Bordeaux",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Metastatic Renal Cell Carcinoma",
+      "Good or Only One Adverse Prognostic Factor Intermediate Risk Per IMDC Score"
+    ],
+    "interventions": [
+      {
+        "name": "Combination PD-1/PD-L1 ICI + VEGFR-TKI",
+        "type": "DRUG"
+      },
+      {
+        "name": "Treatment pause",
+        "type": "OTHER"
+      }
+    ],
+    "start_date": "2023-01-23",
+    "primary_completion_date": "2027-01",
+    "enrollment": 22,
+    "countries": [
+      "France"
+    ]
+  },
+  {
+    "nct_id": "NCT06115135",
+    "title": "A Study of Venetoclax in Combination With Isatuximab and Dexamethasone for Relapsed/Refractory Multiple Myeloma",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Oncotherapeutics",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Multiple Myeloma in Relapse",
+      "Multiple Myeloma, Refractory"
+    ],
+    "interventions": [
+      {
+        "name": "Venetoclax",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2024-06-20",
+    "primary_completion_date": "2026-04-30",
+    "enrollment": 39,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT04709276",
+    "title": "A Study of Chemoimmunotherapy for the Treatment of Men With Neuroendocrine or Aggressive Variant Metastatic Prostate Cancer",
+    "phase": "Phase 2",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "Andrew J. Armstrong, MD",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Metastatic Prostate Neuroendocrine Carcinoma",
+      "Metastatic Prostate Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "Nivolumab",
+        "type": "DRUG"
+      },
+      {
+        "name": "Ipilimumab",
+        "type": "DRUG"
+      },
+      {
+        "name": "Carboplatin",
+        "type": "DRUG"
+      },
+      {
+        "name": "Cabazitaxel",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2021-06-07",
+    "primary_completion_date": "2026-02-26",
+    "enrollment": 41,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT02893917",
+    "title": "Testing Two Oral Drugs Combination (Cediranib and Olaparib) Compared to a Single Drug (Olaparib) for Men With Advanced Prostate Cancer",
+    "phase": "Phase 2",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "National Cancer Institute (NCI)",
+    "sponsor_class": "NIH",
+    "conditions": [
+      "Advanced Prostate Adenocarcinoma With Neuroendocrine Differentiation",
+      "Castration-Resistant Prostate Carcinoma",
+      "Metastatic Prostate Adenocarcinoma With Neuroendocrine Differentiation",
+      "Metastatic Prostate Carcinoma",
+      "Prostate Adenocarcinoma With Neuroendocrine Differentiation",
+      "Stage IV Prostate Adenocarcinoma AJCC v7"
+    ],
+    "interventions": [
+      {
+        "name": "Cediranib",
+        "type": "DRUG"
+      },
+      {
+        "name": "Olaparib",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2017-08-11",
+    "primary_completion_date": "2023-03-14",
+    "enrollment": 90,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT07450976",
+    "title": "A Study of SHR-A1904 in Previous Systemic Treatment Failed Biliary Tract Cancer",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Suzhou Suncadia Biopharmaceuticals Co., Ltd.",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Biliary Tract Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "SHR-A1904 for Injection",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2026-03-25",
+    "primary_completion_date": "2030-12",
+    "enrollment": 151,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "nct_id": "NCT07306624",
+    "title": "Nelmastobart in Combination With Docetaxel in Non Small Cell Lung Cancer",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "STCube, Inc.",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Non Small Cell Lung Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "Nelmastobart and Docetaxel",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2026-01-10",
+    "primary_completion_date": "2027-08-31",
+    "enrollment": 62,
+    "countries": [
+      "South Korea"
+    ]
+  },
+  {
+    "nct_id": "NCT06925724",
+    "title": "A Study of Ivonescimab in People With Endometrial and Cervical Cancers",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Memorial Sloan Kettering Cancer Center",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Endometrial Cancer",
+      "Cervical Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "Ivonescimab",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2025-04-04",
+    "primary_completion_date": "2027-04",
+    "enrollment": 50,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT06417476",
+    "title": "Short-course Radiotherapy or Long-course Chemoradiation Followed by mFOLFOXIRI Consolidation Chemotherapy for Organ Preservation in Low Rectal Cancer",
+    "phase": "Phase 2",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "Pei-Rong Ding",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Rectal Neoplasms"
+    ],
+    "interventions": [
+      {
+        "name": "Short-course radiotherapy",
+        "type": "RADIATION"
+      },
+      {
+        "name": "Irinotecan",
+        "type": "DRUG"
+      },
+      {
+        "name": "Oxaliplatin",
+        "type": "DRUG"
+      },
+      {
+        "name": "Calcium Formate",
+        "type": "DRUG"
+      },
+      {
+        "name": "Fluorouracil",
+        "type": "DRUG"
+      },
+      {
+        "name": "Long-course chemoradiation",
+        "type": "RADIATION"
+      },
+      {
+        "name": "Capecitabine",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2022-12-12",
+    "primary_completion_date": "2025-09-30",
+    "enrollment": 66,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "nct_id": "NCT06062810",
+    "title": "Bioequivalence ANDA SNP Clinical Study - Raloxifene and Single Nucleotide Polymorphisms",
+    "phase": "Phase 2/Phase 3",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "Han Xu, M.D., Ph.D., FAPCR, Sponsor-Investigator, IRB Chair",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Breast Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "Raloxifene - Usual",
+        "type": "DRUG"
+      },
+      {
+        "name": "Raloxifene - Study",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2025-06-21",
+    "primary_completion_date": "2026-12-18",
+    "enrollment": 600,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT02993523",
+    "title": "A Study of Venetoclax in Combination With Azacitidine Versus Azacitidine in Treatment Naïve Participants With Acute Myeloid Leukemia Who Are Ineligible for Standard Induction Therapy",
+    "phase": "Phase 3",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "AbbVie",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Acute Myeloid Leukemia (AML)"
+    ],
+    "interventions": [
+      {
+        "name": "Azacitidine",
+        "type": "DRUG"
+      },
+      {
+        "name": "Venetoclax",
+        "type": "DRUG"
+      },
+      {
+        "name": "Placebo",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2017-02-02",
+    "primary_completion_date": "2021-12-01",
+    "enrollment": 443,
+    "countries": [
+      "Australia",
+      "Austria",
+      "Belgium",
+      "Brazil",
+      "Canada",
+      "China",
+      "Croatia",
+      "Czechia",
+      "Denmark",
+      "Finland",
+      "France",
+      "Germany",
+      "Hungary",
+      "Israel",
+      "Italy",
+      "Japan",
+      "Norway",
+      "Poland",
+      "Portugal",
+      "Puerto Rico",
+      "Russia",
+      "South Africa",
+      "South Korea",
+      "Spain",
+      "Sweden",
+      "Taiwan",
+      "Turkey (Türkiye)",
+      "Ukraine",
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT06006117",
+    "title": "Mosunetuzumab-Lenalidomide Versus Investigator Choices in Patients With Relapsed or Refractory Marginal Zone Lymphoma",
+    "phase": "Phase 3",
+    "status": "RECRUITING",
+    "sponsor": "The Lymphoma Academic Research Organisation",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Marginal Zone Lymphoma"
+    ],
+    "interventions": [
+      {
+        "name": "Mosunetuzumab (SC)",
+        "type": "DRUG"
+      },
+      {
+        "name": "Rituximab (R)",
+        "type": "DRUG"
+      },
+      {
+        "name": "Bendamustine",
+        "type": "DRUG"
+      },
+      {
+        "name": "CHOP (cyclophosphamide, hydroxydaunorubicin [doxorubicin], Oncovin [vincristine], prednisone)",
+        "type": "DRUG"
+      },
+      {
+        "name": "Lenalidomide",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2023-09-05",
+    "primary_completion_date": "2027-09",
+    "enrollment": 260,
+    "countries": [
+      "Belgium",
+      "France",
+      "Germany",
+      "Italy",
+      "Portugal"
+    ]
+  },
+  {
+    "nct_id": "NCT04284774",
+    "title": "Tipifarnib for the Treatment of Advanced Solid Tumors, Lymphoma, or Histiocytic Disorders With HRAS Gene Alterations, a Pediatric MATCH Treatment Trial",
+    "phase": "Phase 2",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "National Cancer Institute (NCI)",
+    "sponsor_class": "NIH",
+    "conditions": [
+      "Malignant Solid Neoplasm",
+      "Recurrent Adrenal Gland Pheochromocytoma",
+      "Recurrent Ectomesenchymoma",
+      "Recurrent Ependymoma",
+      "Recurrent Ewing Sarcoma",
+      "Recurrent Hepatoblastoma",
+      "Recurrent Kidney Wilms Tumor",
+      "Recurrent Langerhans Cell Histiocytosis",
+      "Recurrent Malignant Germ Cell Tumor",
+      "Recurrent Malignant Glioma",
+      "Recurrent Medulloblastoma",
+      "Recurrent Melanoma",
+      "Recurrent Neuroblastoma",
+      "Recurrent Non-Hodgkin Lymphoma",
+      "Recurrent Osteosarcoma",
+      "Recurrent Peripheral Primitive Neuroectodermal Tumor",
+      "Recurrent Rhabdoid Tumor",
+      "Recurrent Rhabdoid Tumor of the Kidney",
+      "Recurrent Rhabdomyosarcoma",
+      "Recurrent Soft Tissue Sarcoma",
+      "Recurrent Thyroid Gland Carcinoma",
+      "Recurrent WHO Grade 2 Glioma",
+      "Refractory Adrenal Gland Pheochromocytoma",
+      "Refractory Ependymoma",
+      "Refractory Ewing Sarcoma",
+      "Refractory Hepatoblastoma",
+      "Refractory Langerhans Cell Histiocytosis",
+      "Refractory Malignant Germ Cell Tumor",
+      "Refractory Malignant Glioma",
+      "Refractory Medulloblastoma",
+      "Refractory Melanoma",
+      "Refractory Neuroblastoma",
+      "Refractory Non-Hodgkin Lymphoma",
+      "Refractory Osteosarcoma",
+      "Refractory Peripheral Primitive Neuroectodermal Tumor",
+      "Refractory Rhabdoid Tumor",
+      "Refractory Rhabdoid Tumor of the Kidney",
+      "Refractory Rhabdomyosarcoma",
+      "Refractory Soft Tissue Sarcoma",
+      "Refractory Thyroid Gland Carcinoma",
+      "Refractory WHO Grade 2 Glioma"
+    ],
+    "interventions": [
+      {
+        "name": "Tipifarnib",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2020-10-13",
+    "primary_completion_date": "2024-03-31",
+    "enrollment": 5,
+    "countries": [
+      "Puerto Rico",
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT04708418",
+    "title": "A Study Evaluating Whether Pembrolizumab Alone or in Combination With CMP-001 Improves Efficacy of Treatment in Patients With Operable Melanoma",
+    "phase": "Phase 2",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "National Cancer Institute (NCI)",
+    "sponsor_class": "NIH",
+    "conditions": [
+      "Clinical Stage III Cutaneous Melanoma AJCC v8",
+      "Melanoma of Unknown Primary",
+      "Pathologic Stage IIIB Cutaneous Melanoma AJCC v8",
+      "Pathologic Stage IIIC Cutaneous Melanoma AJCC v8",
+      "Pathologic Stage IIID Cutaneous Melanoma AJCC v8",
+      "Recurrent Cutaneous Melanoma"
+    ],
+    "interventions": [
+      {
+        "name": "Biopsy Procedure",
+        "type": "PROCEDURE"
+      },
+      {
+        "name": "Biospecimen Collection",
+        "type": "PROCEDURE"
+      },
+      {
+        "name": "Computed Tomography",
+        "type": "PROCEDURE"
+      },
+      {
+        "name": "Pembrolizumab",
+        "type": "BIOLOGICAL"
+      },
+      {
+        "name": "Positron Emission Tomography",
+        "type": "PROCEDURE"
+      },
+      {
+        "name": "Surgical Procedure",
+        "type": "PROCEDURE"
+      },
+      {
+        "name": "VLP-encapsulated TLR9 Agonist CMP-001",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2021-10-15",
+    "primary_completion_date": "2026-06-30",
+    "enrollment": 60,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT04425018",
+    "title": "MARGetuximab Or Trastuzumab (MARGOT)",
+    "phase": "Phase 2",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "Dana-Farber Cancer Institute",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Breast Cancer",
+      "Stage II Breast Cancer",
+      "Stage III Breast Cancer",
+      "HER2-positive Breast Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "Paclitaxel",
+        "type": "DRUG"
+      },
+      {
+        "name": "Pertuzumab",
+        "type": "DRUG"
+      },
+      {
+        "name": "Margetuximab",
+        "type": "DRUG"
+      },
+      {
+        "name": "Trastuzumab",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2020-07-13",
+    "primary_completion_date": "2024-10-24",
+    "enrollment": 174,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT05210790",
+    "title": "A Phase 3 Study of Rusfertide in Patients With Polycythemia Vera",
+    "phase": "Phase 3",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "Protagonist Therapeutics, Inc.",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Polycythemia Vera"
+    ],
+    "interventions": [
+      {
+        "name": "Placebo",
+        "type": "DRUG"
+      },
+      {
+        "name": "Rusfertide",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2022-04-01",
+    "primary_completion_date": "2025-02-21",
+    "enrollment": 293,
+    "countries": [
+      "Australia",
+      "Austria",
+      "Belgium",
+      "Canada",
+      "Chile",
+      "Czechia",
+      "France",
+      "Germany",
+      "Hong Kong",
+      "Hungary",
+      "Israel",
+      "Italy",
+      "Mexico",
+      "Netherlands",
+      "Poland",
+      "Portugal",
+      "Spain",
+      "Turkey (Türkiye)",
+      "United Kingdom",
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT05965817",
+    "title": "Fluorescence-guided Resection Of Colorectal Liver Metastases Using SGM-101 and Indocyanine GREEN",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Leiden University Medical Center",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Colorectal Cancer",
+      "Liver Metastasis Colon Cancer",
+      "Image"
+    ],
+    "interventions": [
+      {
+        "name": "SGM-101 op top of ICG",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2023-12-01",
+    "primary_completion_date": "2025-03-01",
+    "enrollment": 10,
+    "countries": [
+      "Netherlands"
+    ]
+  },
+  {
+    "nct_id": "NCT06244368",
+    "title": "GVM±R in Patients With Relapsed or Refractory Aggressive NHL.",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Institute of Hematology & Blood Diseases Hospital, China",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Peripheral T Cell Lymphoma",
+      "Diffuse Large B-cell Lymphoma"
+    ],
+    "interventions": [
+      {
+        "name": "GVM±R regimen",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2024-01-17",
+    "primary_completion_date": "2025-12-30",
+    "enrollment": 115,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "nct_id": "NCT05262010",
+    "title": "A Phase III Clinical Trial of a 11-valent Recombinant Human Papillomavirus Vaccine (Hansenulapolymorpha) in Chinese Women Aged 9-45 Years",
+    "phase": "Phase 3",
+    "status": "RECRUITING",
+    "sponsor": "National Vaccine and Serum Institute, China",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "HPV InfectioN",
+      "HPV-Related Carcinoma"
+    ],
+    "interventions": [
+      {
+        "name": "11-valent recombinant human papilloma virus vaccine (Hansenula polymorpha)",
+        "type": "BIOLOGICAL"
+      },
+      {
+        "name": "placebo",
+        "type": "BIOLOGICAL"
+      }
+    ],
+    "start_date": "2022-06-04",
+    "primary_completion_date": "2028-06",
+    "enrollment": 13500,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "nct_id": "NCT06614140",
+    "title": "Personalized Neoantigen Cancer Vaccine for Patients with Solid Tumors",
+    "phase": "Phase 1/Phase 2",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "Seqker Biosciences, Inc.",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Cancer",
+      "Solid Tumor, Adult"
+    ],
+    "interventions": [
+      {
+        "name": "Personalized Neoantigen Peptide Vaccine with Poly-ICLC and Checkpoint Inhibitors",
+        "type": "BIOLOGICAL"
+      }
+    ],
+    "start_date": "2022-11-24",
+    "primary_completion_date": "2025-08-15",
+    "enrollment": 8,
+    "countries": [
+      "Thailand"
+    ]
+  },
+  {
+    "nct_id": "NCT00801489",
+    "title": "Fludarabine Phosphate, Cytarabine, Filgrastim-sndz, Gemtuzumab Ozogamicin, and Idarubicin Hydrochloride in Treating Patients With Newly Diagnosed Acute Myeloid Leukemia or High-Risk Myelodysplastic Syndrome",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "M.D. Anderson Cancer Center",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Acute Myeloid Leukemia With Inv(16)(p13.1q22); CBFB-MYH11",
+      "Acute Myeloid Leukemia With t(16;16)(p13.1;q22); CBFB-MYH11",
+      "Acute Myeloid Leukemia With t(8;21); (q22; q22.1); RUNX1-RUNX1T1",
+      "de Novo Myelodysplastic Syndrome",
+      "High Risk Myelodysplastic Syndrome",
+      "Inv(16)",
+      "Myelodysplastic Syndrome With Excess Blasts",
+      "t(16;16)",
+      "t(8;21)",
+      "Untreated Adult Acute Myeloid Leukemia"
+    ],
+    "interventions": [
+      {
+        "name": "Cytarabine",
+        "type": "DRUG"
+      },
+      {
+        "name": "Decitabine",
+        "type": "DRUG"
+      },
+      {
+        "name": "Filgrastim-sndz",
+        "type": "BIOLOGICAL"
+      },
+      {
+        "name": "Fludarabine Phosphate",
+        "type": "DRUG"
+      },
+      {
+        "name": "Gemtuzumab Ozogamicin",
+        "type": "DRUG"
+      },
+      {
+        "name": "Idarubicin",
+        "type": "DRUG"
+      },
+      {
+        "name": "Laboratory Biomarker Analysis",
+        "type": "OTHER"
+      }
+    ],
+    "start_date": "2007-04-04",
+    "primary_completion_date": "2028-10-11",
+    "enrollment": 270,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT06393374",
+    "title": "Sacituzumab Tirumotecan (MK-2870) Plus Pembrolizumab Versus TPC in TNBC Who Did Not Achieve pCR (MK-2870-012)",
+    "phase": "Phase 3",
+    "status": "RECRUITING",
+    "sponsor": "Merck Sharp & Dohme LLC",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Triple-Negative Breast Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "Pembrolizumab",
+        "type": "BIOLOGICAL"
+      },
+      {
+        "name": "Sacituzumab tirumotecan",
+        "type": "BIOLOGICAL"
+      },
+      {
+        "name": "Capecitabine",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2024-06-24",
+    "primary_completion_date": "2030-12-16",
+    "enrollment": 1530,
+    "countries": [
+      "Argentina",
+      "Australia",
+      "Austria",
+      "Belgium",
+      "Brazil",
+      "Canada",
+      "Colombia",
+      "Czechia",
+      "Denmark",
+      "Finland",
+      "France",
+      "Germany",
+      "Greece",
+      "Hong Kong",
+      "Ireland",
+      "Israel",
+      "Italy",
+      "Japan",
+      "Malaysia",
+      "Mexico",
+      "Norway",
+      "Poland",
+      "Portugal",
+      "Singapore",
+      "South Korea",
+      "Spain",
+      "Sweden",
+      "Switzerland",
+      "Turkey (Türkiye)",
+      "United Kingdom",
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT06151197",
+    "title": "Study to Assess EN3835 in the Treatment of Plantar Fibromatosis (Also Known as Ledderhose Disease)",
+    "phase": "Phase 3",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "Endo Pharmaceuticals",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Plantar Fibromatosis",
+      "Ledderhose Disease"
+    ],
+    "interventions": [
+      {
+        "name": "EN3835",
+        "type": "BIOLOGICAL"
+      },
+      {
+        "name": "Placebo",
+        "type": "OTHER"
+      }
+    ],
+    "start_date": "2023-11-28",
+    "primary_completion_date": "2026-03",
+    "enrollment": 418,
+    "countries": [
+      "Puerto Rico",
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT04643379",
+    "title": "Olaparib in Combination With Pembrolizumab and Carboplatin as First-Line Treatment of Recurrent or Metastatic Head and Neck Squamous-Cell Carcinoma",
+    "phase": "Phase 2",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "Washington University School of Medicine",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Recurrent Head and Neck Squamous Cell Carcinoma",
+      "Metastatic Head and Neck Squamous Cell Carcinoma"
+    ],
+    "interventions": [
+      {
+        "name": "Olaparib",
+        "type": "DRUG"
+      },
+      {
+        "name": "Pembrolizumab",
+        "type": "DRUG"
+      },
+      {
+        "name": "Carboplatin",
+        "type": "DRUG"
+      },
+      {
+        "name": "Peripheral blood draw",
+        "type": "PROCEDURE"
+      }
+    ],
+    "start_date": "2021-08-07",
+    "primary_completion_date": "2025-10-16",
+    "enrollment": 30,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT06664996",
+    "title": "Sintilimab Combined SBRT As Neoadjuvant Therapy for Resectable HCC with PVTT",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "West China Hospital",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Hepatocellular Carcinoma (HCC)"
+    ],
+    "interventions": [
+      {
+        "name": "stereotactic body radiation therapy (SBRT)",
+        "type": "RADIATION"
+      },
+      {
+        "name": "Sintilimab (approved)",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2024-10-15",
+    "primary_completion_date": "2025-10",
+    "enrollment": 33,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "nct_id": "NCT04457596",
+    "title": "T-DM1 and Tucatinib Compared With T-DM1 Alone in Preventing Relapses in People With High Risk HER2-Positive Breast Cancer, the CompassHER2 RD Trial",
+    "phase": "Phase 3",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "Alliance for Clinical Trials in Oncology",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Anatomic Stage IA Breast Cancer AJCC v8",
+      "Anatomic Stage II Breast Cancer AJCC v8",
+      "Anatomic Stage IIA Breast Cancer AJCC v8",
+      "Anatomic Stage IIB Breast Cancer AJCC v8",
+      "Anatomic Stage III Breast Cancer AJCC v8",
+      "Anatomic Stage IIIA Breast Cancer AJCC v8",
+      "Anatomic Stage IIIB Breast Cancer AJCC v8",
+      "Anatomic Stage IIIC Breast Cancer AJCC v8",
+      "HER2 Positive Breast Carcinoma",
+      "Invasive Breast Carcinoma",
+      "Multifocal Breast Carcinoma",
+      "Prognostic Stage I Breast Cancer AJCC v8",
+      "Prognostic Stage IA Breast Cancer AJCC v8",
+      "Prognostic Stage IB Breast Cancer AJCC v8",
+      "Prognostic Stage II Breast Cancer AJCC v8",
+      "Prognostic Stage IIA Breast Cancer AJCC v8",
+      "Prognostic Stage IIB Breast Cancer AJCC v8",
+      "Prognostic Stage III Breast Cancer AJCC v8",
+      "Prognostic Stage IIIA Breast Cancer AJCC v8",
+      "Prognostic Stage IIIB Breast Cancer AJCC v8",
+      "Prognostic Stage IIIC Breast Cancer AJCC v8",
+      "Synchronous Bilateral Breast Carcinoma"
+    ],
+    "interventions": [
+      {
+        "name": "Trastuzumab Emtansine",
+        "type": "BIOLOGICAL"
+      },
+      {
+        "name": "Placebo Administration",
+        "type": "DRUG"
+      },
+      {
+        "name": "Tucatinib",
+        "type": "DRUG"
+      },
+      {
+        "name": "Questionnaire Administration",
+        "type": "OTHER"
+      },
+      {
+        "name": "Quality-of-Life Assessment",
+        "type": "OTHER"
+      }
+    ],
+    "start_date": "2021-03-02",
+    "primary_completion_date": "2028-01-31",
+    "enrollment": 1056,
+    "countries": [
+      "Canada",
+      "Puerto Rico",
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT05555888",
+    "title": "The Combination of Immunotherapy and Neoadjuvant Short-course Radiotherapy in Early Rectal Cancer",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Fudan University",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Early Low Rectal Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "PD-1 antibody",
+        "type": "DRUG"
+      },
+      {
+        "name": "Capecitabine",
+        "type": "DRUG"
+      },
+      {
+        "name": "Oxaliplatin",
+        "type": "DRUG"
+      },
+      {
+        "name": "Short-course radiotherapy",
+        "type": "RADIATION"
+      }
+    ],
+    "start_date": "2022-12-12",
+    "primary_completion_date": "2024-03-12",
+    "enrollment": 34,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "nct_id": "NCT07392541",
+    "title": "Adebrelimab Combined With Gemcitabine, Cisplatin, and Simvastatin for Advanced Biliary Tract Cancer",
+    "phase": "Phase 1/Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Tongji Hospital",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Advanced Biliary Tract Carcinoma"
+    ],
+    "interventions": [
+      {
+        "name": "Adebrelimab",
+        "type": "DRUG"
+      },
+      {
+        "name": "Gemcitabine + Cisplatin",
+        "type": "DRUG"
+      },
+      {
+        "name": "Simvastatin 20mg",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2026-01-30",
+    "primary_completion_date": "2028-01-30",
+    "enrollment": 29,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "nct_id": "NCT03145181",
+    "title": "Dose Escalation Study of Teclistamab, a Humanized BCMA*CD3 Bispecific Antibody, in Participants With Relapsed or Refractory Multiple Myeloma",
+    "phase": "Phase 1/Phase 2",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "Janssen Research & Development, LLC",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Hematological Malignancies"
+    ],
+    "interventions": [
+      {
+        "name": "Teclistamab (IV)",
+        "type": "DRUG"
+      },
+      {
+        "name": "Teclistamab(SC)",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2017-05-16",
+    "primary_completion_date": "2021-11-09",
+    "enrollment": 302,
+    "countries": [
+      "France",
+      "Netherlands",
+      "Spain",
+      "Sweden",
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT04503265",
+    "title": "A Trial of AMXI-5001 for Treatment in Patients With Advanced Malignancies",
+    "phase": "Phase 1/Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "AtlasMedx, Incorporated",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Advanced Malignant Neoplasm",
+      "Breast Cancer",
+      "Ovarian Cancer",
+      "Homologous Recombination Deficiency",
+      "Prostate Cancer",
+      "Pancreatic Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "AMXI-5001:Dose Escalation Phase I",
+        "type": "DRUG"
+      },
+      {
+        "name": "AMXI-5001:Dose Expansion Phase II",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2020-08-12",
+    "primary_completion_date": "2026-08",
+    "enrollment": 122,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT03899792",
+    "title": "A Study of Oral LOXO-292 (Selpercatinib) in Pediatric Participants With Advanced Solid or Primary Central Nervous System (CNS) Tumors",
+    "phase": "Phase 1/Phase 2",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "Eli Lilly and Company",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Medullary Thyroid Cancer",
+      "Infantile Myofibromatosis",
+      "Infantile Fibrosarcoma",
+      "Papillary Thyroid Cancer",
+      "Soft Tissue Sarcoma"
+    ],
+    "interventions": [
+      {
+        "name": "Selpercatinib",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2019-06-13",
+    "primary_completion_date": "2024-11-08",
+    "enrollment": 36,
+    "countries": [
+      "Australia",
+      "Canada",
+      "Denmark",
+      "France",
+      "Germany",
+      "Italy",
+      "Japan",
+      "South Korea",
+      "Spain",
+      "United Kingdom",
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT06836492",
+    "title": "A Prospective Clinical Cohort Study on Stratified Treatment of Rhabdomyosarcoma Based on Risk Factors.",
+    "phase": "Phase 3",
+    "status": "RECRUITING",
+    "sponsor": "Yizhuo Zhang",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Rhabdomyosarcoma",
+      "Pediatric Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "VAC，VAC/VII，CAV/IE",
+        "type": "COMBINATION_PRODUCT"
+      }
+    ],
+    "start_date": "2017-01-30",
+    "primary_completion_date": "2029-09",
+    "enrollment": 300,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "nct_id": "NCT07051486",
+    "title": "A Phase II Trial of SHR-A1811 in HER2-Expressing Recurrent/Metastatic Cervical Cancer",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Jiangsu HengRui Medicine Co., Ltd.",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Recurrent or Metastatic Cervical Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "SHR-A1811 Injection",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2025-10-11",
+    "primary_completion_date": "2026-02",
+    "enrollment": 60,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "nct_id": "NCT06907641",
+    "title": "Comparative Performance of 64Copper [64Cu]-SAR-bis-PSMA vs 68Ga PSMA-11 PET CT for the Detection of Prostate Cancer Recurrence in the Setting of Biochemical Failure Following Radical Prostatectomy",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "St Vincent's Hospital, Sydney",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Prostate Cancer (Post Prostatectomy)"
+    ],
+    "interventions": [
+      {
+        "name": "64Cu-SAR-bisPSMA",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2024-11-21",
+    "primary_completion_date": "2025-11",
+    "enrollment": 50,
+    "countries": [
+      "Australia"
+    ]
+  },
+  {
+    "nct_id": "NCT06185556",
+    "title": "COLDFIRE-III Trial: Efficacy of Irreversible Electroporation and Stereotactic Body Radiotherapy for Perivascular and Peribiliary Colorectal Liver Metastases",
+    "phase": "Phase 2/Phase 3",
+    "status": "RECRUITING",
+    "sponsor": "Amsterdam UMC, location VUmc",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Colorectal Cancer",
+      "Liver Metastases",
+      "Liver Metastasis Colon Cancer",
+      "Unresectable Solid Tumor"
+    ],
+    "interventions": [
+      {
+        "name": "Irreversible electroporation",
+        "type": "PROCEDURE"
+      },
+      {
+        "name": "Stereotactic body radiotherapy",
+        "type": "RADIATION"
+      }
+    ],
+    "start_date": "2024-08-20",
+    "primary_completion_date": "2029-09-01",
+    "enrollment": 78,
+    "countries": [
+      "Netherlands"
+    ]
+  },
+  {
+    "nct_id": "NCT04145622",
+    "title": "Study of Ifinatamab Deruxtecan (DS-7300a, I-DXd) in Participants With Advanced Solid Malignant Tumors",
+    "phase": "Phase 1/Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Daiichi Sankyo",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Advanced Solid Tumor",
+      "Malignant Solid Tumor"
+    ],
+    "interventions": [
+      {
+        "name": "Ifinatamab deruxtecan (I-DXd)",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2019-11-03",
+    "primary_completion_date": "2027-04-30",
+    "enrollment": 250,
+    "countries": [
+      "Japan",
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT05768139",
+    "title": "First-in-Human Study of STX-478 as Monotherapy and in Combination With Other Antineoplastic Agents in Participants With Advanced Solid Tumors",
+    "phase": "Phase 1/Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Eli Lilly and Company",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Breast Cancer",
+      "Solid Tumors, Adult"
+    ],
+    "interventions": [
+      {
+        "name": "STX-478",
+        "type": "DRUG"
+      },
+      {
+        "name": "Fulvestrant",
+        "type": "DRUG"
+      },
+      {
+        "name": "Ribociclib",
+        "type": "DRUG"
+      },
+      {
+        "name": "Palbociclib",
+        "type": "DRUG"
+      },
+      {
+        "name": "Letrozole",
+        "type": "DRUG"
+      },
+      {
+        "name": "Anastrozole",
+        "type": "DRUG"
+      },
+      {
+        "name": "Exemestane",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2023-04-17",
+    "primary_completion_date": "2030-07",
+    "enrollment": 720,
+    "countries": [
+      "Belgium",
+      "France",
+      "Germany",
+      "Ireland",
+      "Italy",
+      "Japan",
+      "Netherlands",
+      "Spain",
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT06283719",
+    "title": "Dose Escalation Study of ZG006 in Participants With Advanced Small Cell Lung Cancer or Neuroendocrine Carcinoma, Followed by Dose Expansion Study in Participants With Advanced Small Cell Lung Cancer",
+    "phase": "Phase 1/Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Suzhou Zelgen Biopharmaceuticals Co.,Ltd",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Small Cell Lung Cancer",
+      "Neuroendocrine Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "ZG006",
+        "type": "BIOLOGICAL"
+      }
+    ],
+    "start_date": "2024-09-02",
+    "primary_completion_date": "2026-04",
+    "enrollment": 265,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "nct_id": "NCT06227156",
+    "title": "Disitamab Vedotin in the Treatment With HER2- Expression, Subjects With Locally Advanced or Metastatic Castration-resistant Prostate Cancer",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "RemeGen Co., Ltd.",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Castration-resistant Prostate Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "Disitamab Vedotin Injection",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2024-04-08",
+    "primary_completion_date": "2025-12",
+    "enrollment": 40,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "nct_id": "NCT05797831",
+    "title": "Study of Navtemadlin as Maintenance Therapy in TP53WT Advanced or Recurrent Endometrial Cancer",
+    "phase": "Phase 2/Phase 3",
+    "status": "RECRUITING",
+    "sponsor": "Kartos Therapeutics, Inc.",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Endometrial Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "Navtemadlin",
+        "type": "DRUG"
+      },
+      {
+        "name": "Navtemadlin Placebo",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2023-07-17",
+    "primary_completion_date": "2025-08",
+    "enrollment": 268,
+    "countries": [
+      "Austria",
+      "Canada",
+      "Denmark",
+      "Estonia",
+      "Finland",
+      "Georgia",
+      "Hungary",
+      "Israel",
+      "Italy",
+      "Lithuania",
+      "Norway",
+      "Poland",
+      "Romania",
+      "Slovenia",
+      "Spain",
+      "Sweden",
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT04305145",
+    "title": "Infliximab for Treatment of Immune Checkpoint Inhibitor Colitis",
+    "phase": "Phase 2",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "Massachusetts General Hospital",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Melanoma Stage III",
+      "Melanoma Stage IV",
+      "Skin Cancer Stage III",
+      "Skin Cancer Stage IV",
+      "Drug-Induced Colitis",
+      "Drug Toxicity",
+      "Immune-related Adverse Event"
+    ],
+    "interventions": [
+      {
+        "name": "Infliximab",
+        "type": "DRUG"
+      },
+      {
+        "name": "Methylprednisolone",
+        "type": "DRUG"
+      },
+      {
+        "name": "Prednisone",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2020-08-31",
+    "primary_completion_date": "2030-06-30",
+    "enrollment": 42,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT06271837",
+    "title": "A Study of T-DXd as Monotherapy or in Combination With Anti-cancer Agents in Patients With Selected HER2-expressing Tumors",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "AstraZeneca",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Advanced Solid Tumors (Excluding Gastric Cancer and Breast Cancer)"
+    ],
+    "interventions": [
+      {
+        "name": "Trastuzumab deruxtecan",
+        "type": "DRUG"
+      },
+      {
+        "name": "Bevacizumab",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2024-02-18",
+    "primary_completion_date": "2025-10-30",
+    "enrollment": 175,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "nct_id": "NCT05557877",
+    "title": "Low Dose Aspirin for the Prevention of Postpartum Related Breast Cancer",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Mayo Clinic",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Breast Carcinoma"
+    ],
+    "interventions": [
+      {
+        "name": "Biospecimen Collection",
+        "type": "PROCEDURE"
+      },
+      {
+        "name": "Low-Dose Aspirin",
+        "type": "DRUG"
+      },
+      {
+        "name": "Questionnaire Administration",
+        "type": "OTHER"
+      },
+      {
+        "name": "Biopsy",
+        "type": "PROCEDURE"
+      }
+    ],
+    "start_date": "2023-03-09",
+    "primary_completion_date": "2027-01-30",
+    "enrollment": 100,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT06341400",
+    "title": "RC48 Combined with Toripalimab As Neoadjuvant Therapy for Cisplatin Ineligible MIBC Patients",
+    "phase": "Phase 1/Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Zhujiang Hospital",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Bladder Cancer",
+      "Muscle-Invasive Bladder Carcinoma"
+    ],
+    "interventions": [
+      {
+        "name": "DisitamabVedotinForIicction Toripalimab",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2024-06-19",
+    "primary_completion_date": "2026-05-01",
+    "enrollment": 55,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "nct_id": "NCT05189730",
+    "title": "Selected Chemotherapy Combined Immunotherapy Treated High Risk Patient After NCRT in Resected Locally Advanced ESCC",
+    "phase": "Phase 2",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "Sichuan Cancer Hospital and Research Institute",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Esophageal Squamous Cell Carcinoma"
+    ],
+    "interventions": [
+      {
+        "name": "Tirelizumab",
+        "type": "DRUG"
+      },
+      {
+        "name": "Paclitaxel",
+        "type": "DRUG"
+      },
+      {
+        "name": "Carboplatin",
+        "type": "DRUG"
+      },
+      {
+        "name": "Neoadiuvant radiotherapy",
+        "type": "RADIATION"
+      }
+    ],
+    "start_date": "2021-07-01",
+    "primary_completion_date": "2025-01-31",
+    "enrollment": 80,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "nct_id": "NCT04807192",
+    "title": "CMP-001 and Pre-operative Stereotactic Body Radiation Therapy (SBRT) in Early Stage Triple Negative Breast Cancer (TNBC)",
+    "phase": "Phase 2",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "Centre Hospitalier Universitaire Vaudois",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Triple Negative Breast Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "stereotactic body radiotherapy",
+        "type": "RADIATION"
+      },
+      {
+        "name": "CMP-001",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2021-04-07",
+    "primary_completion_date": "2025-12",
+    "enrollment": 40,
+    "countries": [
+      "Switzerland"
+    ]
+  },
+  {
+    "nct_id": "NCT04335292",
+    "title": "Osimertinib Then Chemotherapy in EGFR-mutated Lung Cancer with Osimertinib Third-line Rechallenge",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Mark Vincent",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Non-Small Cell Lung Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "Osimertinib First-Line",
+        "type": "DRUG"
+      },
+      {
+        "name": "Platinum + Pemetrexed Chemotherapy Second-Line",
+        "type": "DRUG"
+      },
+      {
+        "name": "Osimertinib Third-Line",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2021-01-06",
+    "primary_completion_date": "2026-06-01",
+    "enrollment": 200,
+    "countries": [
+      "Canada"
+    ]
+  },
+  {
+    "nct_id": "NCT02650401",
+    "title": "Study Of Entrectinib (Rxdx-101) in Children and Adolescents With Locally Advanced Or Metastatic Solid Or Primary CNS Tumors And/Or Who Have No Satisfactory Treatment Options",
+    "phase": "Phase 1/Phase 2",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "Hoffmann-La Roche",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Solid Tumors",
+      "CNS Tumors"
+    ],
+    "interventions": [
+      {
+        "name": "Entrectinib",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2016-05-03",
+    "primary_completion_date": "2026-06-30",
+    "enrollment": 69,
+    "countries": [
+      "Canada",
+      "China",
+      "France",
+      "Germany",
+      "Hong Kong",
+      "Italy",
+      "Spain",
+      "United Kingdom",
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT05677919",
+    "title": "Pirtobrutinib and Venetoclax With MRD Detection for Previously Untreated Chronic Lymphocytic Leukemia",
+    "phase": "Phase 2",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "Mayo Clinic",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Chronic Lymphocytic Leukemia",
+      "Small Lymphocytic Lymphoma"
+    ],
+    "interventions": [
+      {
+        "name": "Biospecimen Collection",
+        "type": "PROCEDURE"
+      },
+      {
+        "name": "Bone Marrow Aspiration",
+        "type": "PROCEDURE"
+      },
+      {
+        "name": "Bone Marrow Biopsy",
+        "type": "PROCEDURE"
+      },
+      {
+        "name": "Computed Tomography",
+        "type": "PROCEDURE"
+      },
+      {
+        "name": "Magnetic Resonance Imaging",
+        "type": "PROCEDURE"
+      },
+      {
+        "name": "Pirtobrutinib",
+        "type": "DRUG"
+      },
+      {
+        "name": "Positron Emission Tomography",
+        "type": "PROCEDURE"
+      },
+      {
+        "name": "Venetoclax",
+        "type": "DRUG"
+      },
+      {
+        "name": "Echocardiography",
+        "type": "PROCEDURE"
+      },
+      {
+        "name": "Multigated Acquisition Scan",
+        "type": "PROCEDURE"
+      },
+      {
+        "name": "Biopsy",
+        "type": "PROCEDURE"
+      }
+    ],
+    "start_date": "2023-01-31",
+    "primary_completion_date": "2026-11-11",
+    "enrollment": 72,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT04587830",
+    "title": "ADI-PEG 20 Plus Radiotherapy and Temozolomide in Subjects With Glioblastoma Multiforme",
+    "phase": "Phase 2",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "Polaris Group",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Glioblastoma Multiforme (GBM)"
+    ],
+    "interventions": [
+      {
+        "name": "ADI-PEG 20",
+        "type": "DRUG"
+      },
+      {
+        "name": "Temozolomide",
+        "type": "DRUG"
+      },
+      {
+        "name": "Placebo",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2020-09-14",
+    "primary_completion_date": "2027-02-28",
+    "enrollment": 100,
+    "countries": [
+      "South Korea",
+      "Taiwan"
+    ]
+  },
+  {
+    "nct_id": "NCT02834637",
+    "title": "A Dose Reduction Immunobridging and Safety Study of Two HPV Vaccines in Tanzanian Girls",
+    "phase": "Phase 3",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "London School of Hygiene and Tropical Medicine",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Human Papilloma Virus"
+    ],
+    "interventions": [
+      {
+        "name": "bivalent HPV vaccine",
+        "type": "DRUG"
+      },
+      {
+        "name": "nonavalent HPV vaccine",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2017-02-23",
+    "primary_completion_date": "2020-01-15",
+    "enrollment": 930,
+    "countries": [
+      "Tanzania"
+    ]
+  },
+  {
+    "nct_id": "NCT06402357",
+    "title": "High Intensity Focused Ultrasound in Prostate Cancer",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "University of Florida",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Prostate Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "Focal One high intensity focused ultrasound device",
+        "type": "DEVICE"
+      }
+    ],
+    "start_date": "2025-05-14",
+    "primary_completion_date": "2027-08",
+    "enrollment": 25,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT05812807",
+    "title": "Pembrolizumab vs. Observation in People With Triple-negative Breast Cancer Who Had a Pathologic Complete Response After Chemotherapy Plus Pembrolizumab",
+    "phase": "Phase 3",
+    "status": "RECRUITING",
+    "sponsor": "Alliance for Clinical Trials in Oncology",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Anatomic Stage I Breast Cancer AJCC v8",
+      "Anatomic Stage II Breast Cancer AJCC v8",
+      "Anatomic Stage III Breast Cancer AJCC v8",
+      "Early Stage Triple-Negative Breast Carcinoma"
+    ],
+    "interventions": [
+      {
+        "name": "Pembrolizumab",
+        "type": "BIOLOGICAL"
+      },
+      {
+        "name": "Patient Observation",
+        "type": "OTHER"
+      },
+      {
+        "name": "Biopsy",
+        "type": "PROCEDURE"
+      },
+      {
+        "name": "Biospecimen Collection",
+        "type": "PROCEDURE"
+      },
+      {
+        "name": "Questionnaire Administration",
+        "type": "OTHER"
+      },
+      {
+        "name": "Quality-of-Life Assessment",
+        "type": "OTHER"
+      }
+    ],
+    "start_date": "2023-06-14",
+    "primary_completion_date": "2033-05-31",
+    "enrollment": 1295,
+    "countries": [
+      "Canada",
+      "Puerto Rico",
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT05582499",
+    "title": "Fudan University Shanghai Cancer Center Breast Cancer Precision Platform Series Study- Neoadjuvant Therapy",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Fudan University",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Breast Neoplasm",
+      "Breast Cancer",
+      "Breast Tumors",
+      "Triple-Negative Breast Cancer (TNBC)",
+      "HER2-positive Breast Cancer",
+      "HER2-negative Breast Cancer",
+      "Hormone Receptor Positive Tumor",
+      "Hormone Receptor Negative Tumor",
+      "Early-stage Breast Cancer",
+      "Locally Advanced Breast Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "Dalpiciclib",
+        "type": "DRUG"
+      },
+      {
+        "name": "Pyrotinib",
+        "type": "DRUG"
+      },
+      {
+        "name": "SHR-A1811",
+        "type": "DRUG"
+      },
+      {
+        "name": "SHR-1316",
+        "type": "DRUG"
+      },
+      {
+        "name": "Camrelizumab",
+        "type": "DRUG"
+      },
+      {
+        "name": "SHR-A1921",
+        "type": "DRUG"
+      },
+      {
+        "name": "Pertuzumab",
+        "type": "DRUG"
+      },
+      {
+        "name": "Trastuzumab",
+        "type": "DRUG"
+      },
+      {
+        "name": "Goserelin",
+        "type": "DRUG"
+      },
+      {
+        "name": "Letrozole",
+        "type": "DRUG"
+      },
+      {
+        "name": "Nab paclitaxel",
+        "type": "DRUG"
+      },
+      {
+        "name": "Carboplatin",
+        "type": "DRUG"
+      },
+      {
+        "name": "Epirubicin",
+        "type": "DRUG"
+      },
+      {
+        "name": "Cyclophosphamide",
+        "type": "DRUG"
+      },
+      {
+        "name": "Fluzoparib",
+        "type": "DRUG"
+      },
+      {
+        "name": "Apatinib",
+        "type": "DRUG"
+      },
+      {
+        "name": "Famitinib",
+        "type": "DRUG"
+      },
+      {
+        "name": "HB1801",
+        "type": "DRUG"
+      },
+      {
+        "name": "LEM",
+        "type": "DRUG"
+      },
+      {
+        "name": "TQB2102",
+        "type": "DRUG"
+      },
+      {
+        "name": "Benmelstobart",
+        "type": "DRUG"
+      },
+      {
+        "name": "Anlotinib",
+        "type": "DRUG"
+      },
+      {
+        "name": "TQB2868",
+        "type": "DRUG"
+      },
+      {
+        "name": "Ivonescimab",
+        "type": "DRUG"
+      },
+      {
+        "name": "JS207",
+        "type": "DRUG"
+      },
+      {
+        "name": "JSKN003",
+        "type": "DRUG"
+      },
+      {
+        "name": "HRS-4508",
+        "type": "DRUG"
+      },
+      {
+        "name": "SHR-4602",
+        "type": "DRUG"
+      },
+      {
+        "name": "paclitaxel",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2022-11-01",
+    "primary_completion_date": "2026-12-31",
+    "enrollment": 716,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "nct_id": "NCT05404139",
+    "title": "Duration of Androgen Receptor Pathway Inhibitor and ADT With Metastasis Directed Therapy in Oligometastatic Cancer of the Prostate (DIRECT)",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "University Health Network, Toronto",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Metastatic Prostate Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "Enzalutamide",
+        "type": "DRUG"
+      },
+      {
+        "name": "Standard of Care SBRT and ADT",
+        "type": "OTHER"
+      }
+    ],
+    "start_date": "2023-05-24",
+    "primary_completion_date": "2026-03",
+    "enrollment": 132,
+    "countries": [
+      "Canada"
+    ]
+  },
+  {
+    "nct_id": "NCT04996875",
+    "title": "(Apex) Bezuclastinib in Patients With Advanced Systemic Mastocytosis",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Cogent Biosciences, Inc.",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Advanced Systemic Mastocytosis (AdvSM)",
+      "SM With an Associated Hematologic Neoplasm (SM-AHN)",
+      "Mast Cell Leukemia (MCL)",
+      "Aggressive Systemic Mastocytosis (ASM)"
+    ],
+    "interventions": [
+      {
+        "name": "bezuclastinib",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2021-11-09",
+    "primary_completion_date": "2025-09",
+    "enrollment": 140,
+    "countries": [
+      "Australia",
+      "Austria",
+      "Belgium",
+      "Canada",
+      "France",
+      "Germany",
+      "Italy",
+      "Netherlands",
+      "Norway",
+      "Poland",
+      "Spain",
+      "Switzerland",
+      "United Kingdom",
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT06917092",
+    "title": "QL1706-Based Therapy Post-PD-1/L1 Failure in Advanced Endometrial Cancer",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Tianjin Medical University Cancer Institute and Hospital",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Endometrial Adenocarcinoma",
+      "Endometrial Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "QL1706 combined with chemotherapy ± Bevacizumab",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2025-05-01",
+    "primary_completion_date": "2027-04-30",
+    "enrollment": 30,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "nct_id": "NCT05868707",
+    "title": "OH2 Injection in Melanoma",
+    "phase": "Phase 3",
+    "status": "RECRUITING",
+    "sponsor": "Binhui Biopharmaceutical Co., Ltd.",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Melanoma"
+    ],
+    "interventions": [
+      {
+        "name": "OH2",
+        "type": "DRUG"
+      },
+      {
+        "name": "Salvage chemotherapy or best supportive care",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2023-03-08",
+    "primary_completion_date": "2026-03",
+    "enrollment": 340,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "nct_id": "NCT07354711",
+    "title": "A First-in-human Study of 3H-10000 in Patients With Unresectable or Metastatic Solid Tumors",
+    "phase": "Phase 1/Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "3H Pharmaceuticals Co., Ltd.",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Lung Cancer",
+      "Stomach Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "3H-10000",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2026-01-04",
+    "primary_completion_date": "2028-01",
+    "enrollment": 170,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "nct_id": "NCT06462222",
+    "title": "Immune Checkpoint Inhibitor Combined With Pemetrexed Intrathecal Injection for Leptomeningeal Metastasis From Solid Tumors",
+    "phase": "Phase 1/Phase 2",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "Guangzhou Medical University",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Leptomeningeal Metastasis"
+    ],
+    "interventions": [
+      {
+        "name": "Toripalimab, pemetrexed",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2024-06-30",
+    "primary_completion_date": "2026-01-30",
+    "enrollment": 45,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "nct_id": "NCT06776757",
+    "title": "Sintilimab in Combination with Cetuximab and Chemotherapy As First-line Treatment for RAS/BRAF Wild-type Advanced Colorectal Cancer",
+    "phase": "Phase 1/Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Cancer Hospital Chinese Academy of Medical Science, Shenzhen Center",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Metastatic Colorectal Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "Sintilimab+Cetuximab+Chemotherapy (mFOLFOX6/FOLFIRI/CAPEOX/CAPIRI)",
+        "type": "DRUG"
+      },
+      {
+        "name": "Sintilimab+Cetuximab+Chemotherapy (mFOLFOX6/FOLFIRI/CAPEOX/CAPIRI)",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2023-12-25",
+    "primary_completion_date": "2025-06-25",
+    "enrollment": 30,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "nct_id": "NCT05478512",
+    "title": "Front-line VenObi Combination Followed by Ven or VenZan Combination in Patients With Residual Disease: a MRD Tailored Treatment for Young Patients With High-risk CLL",
+    "phase": "Phase 2",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "Gruppo Italiano Malattie EMatologiche dell'Adulto",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "High Risk CLL",
+      "Chronic Lymphocytic Leukemia"
+    ],
+    "interventions": [
+      {
+        "name": "VenObi+Ven or VenObi+VenZan",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2023-07-21",
+    "primary_completion_date": "2026-05",
+    "enrollment": 78,
+    "countries": [
+      "Italy"
+    ]
+  },
+  {
+    "nct_id": "NCT07201519",
+    "title": "Study of Safety/Feasibility of a Hybrid Model of Tertiary and Community Delivery of Hepatic Artery Infusion Chemotherapy",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Michael J Cavnar, MD",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Colorectal Cancer Metastatic",
+      "Intrahepatic Cholangiocarcinoma"
+    ],
+    "interventions": [
+      {
+        "name": "Hepatic Artery Infusion Pump (HAIP)",
+        "type": "DEVICE"
+      },
+      {
+        "name": "Standard Treatment",
+        "type": "PROCEDURE"
+      },
+      {
+        "name": "Community Treatment",
+        "type": "PROCEDURE"
+      },
+      {
+        "name": "Systemic Chemotherapy Standard of Care",
+        "type": "DRUG"
+      },
+      {
+        "name": "Standard Of Care targeting driver mutations",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2026-01-23",
+    "primary_completion_date": "2028-02",
+    "enrollment": 80,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT03712202",
+    "title": "Brentuximab Vedotin and Nivolumab in Treating Patients With Early Stage Classic Hodgkin Lymphoma",
+    "phase": "Phase 2",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "City of Hope Medical Center",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Ann Arbor Stage I Hodgkin Lymphoma",
+      "Ann Arbor Stage I Mixed Cellularity Classic Hodgkin Lymphoma",
+      "Ann Arbor Stage I Nodular Sclerosis Classic Hodgkin Lymphoma",
+      "Ann Arbor Stage IA Hodgkin Lymphoma",
+      "Ann Arbor Stage IB Hodgkin Lymphoma",
+      "Ann Arbor Stage II Hodgkin Lymphoma",
+      "Ann Arbor Stage IIA Hodgkin Lymphoma",
+      "Ann Arbor Stage IIB Hodgkin Lymphoma",
+      "Classic Hodgkin Lymphoma",
+      "Lymphocyte-Rich Classic Hodgkin Lymphoma",
+      "Ann Arbor Stage I Lymphocyte-Depleted Classic HL",
+      "Ann Arbor Stage II Lymphocyte-Depleted Classic HL",
+      "Ann Arbor Stage II Mixed Cellularity Classic HL",
+      "Ann Arbor Stage II Nodular Sclerosis Classic HL"
+    ],
+    "interventions": [
+      {
+        "name": "Bleomycin",
+        "type": "DRUG"
+      },
+      {
+        "name": "Brentuximab Vedotin",
+        "type": "DRUG"
+      },
+      {
+        "name": "Dacarbazine",
+        "type": "DRUG"
+      },
+      {
+        "name": "Doxorubicin",
+        "type": "DRUG"
+      },
+      {
+        "name": "Nivolumab",
+        "type": "BIOLOGICAL"
+      },
+      {
+        "name": "Quality-of-Life Assessment",
+        "type": "OTHER"
+      },
+      {
+        "name": "Vinblastine",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2018-11-28",
+    "primary_completion_date": "2024-12-23",
+    "enrollment": 155,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT05952453",
+    "title": "Newly Diagnosed Stage III/IV Ovarian Cancer, Neoadjuvant Carbo/Taxol/Pembro, Maintenance Olaparib/Pembro",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "University of Alabama at Birmingham",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Ovarian Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "Carboplatin",
+        "type": "DRUG"
+      },
+      {
+        "name": "olaparibp, embro",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2025-02-17",
+    "primary_completion_date": "2028-10-30",
+    "enrollment": 20,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT06834672",
+    "title": "Study of IBI354 Versus Investigator's Choice of Chemotherapy in Patients With Platinum-resistant Ovarian, Primary Peritoneal, or Fallopian Tube Cancer",
+    "phase": "Phase 3",
+    "status": "RECRUITING",
+    "sponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Ovarian",
+      "Primary Peritoneal",
+      "Fallopian Tube Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "IBI354",
+        "type": "DRUG"
+      },
+      {
+        "name": "paclitaxel/Gemcitabine/Liposomal doxorubicin",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2025-03-17",
+    "primary_completion_date": "2027-12-28",
+    "enrollment": 450,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "nct_id": "NCT05013892",
+    "title": "NTS-WBRT in Brain Metastases",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Massachusetts General Hospital",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Brain Metastases"
+    ],
+    "interventions": [
+      {
+        "name": "NTS-WBRT (normal tissue sparing whole brain radiation therapy)",
+        "type": "RADIATION"
+      },
+      {
+        "name": "Memantine",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2022-02-08",
+    "primary_completion_date": "2027-12-31",
+    "enrollment": 41,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT06758830",
+    "title": "Total Neoadjuvant Therapy and Organ Preservation Versus Surgery for Rectal Cancer.",
+    "phase": "Phase 2/Phase 3",
+    "status": "RECRUITING",
+    "sponsor": "National Cancer Center Affiliate of Vilnius University Hospital Santaros Klinikos",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Rectal Cancer",
+      "Total Neoadjuvant Treatment",
+      "Neoadjuvant Therapy",
+      "Radiotherapy",
+      "Chemotherapy",
+      "Organ Preservation",
+      "Radiotherapy Side Effect",
+      "Chemotherapy Side Effects",
+      "Chemoradiotherapy",
+      "Low Anterior Resection Syndrome",
+      "Quality of Life"
+    ],
+    "interventions": [
+      {
+        "name": "Radiation Therapy",
+        "type": "RADIATION"
+      },
+      {
+        "name": "Chemoradiotherapy",
+        "type": "DRUG"
+      },
+      {
+        "name": "Consolidation Chemotherapy",
+        "type": "DRUG"
+      },
+      {
+        "name": "Surgery",
+        "type": "PROCEDURE"
+      },
+      {
+        "name": "Part two",
+        "type": "OTHER"
+      },
+      {
+        "name": "Adjuvant treatment",
+        "type": "OTHER"
+      }
+    ],
+    "start_date": "2025-01-07",
+    "primary_completion_date": "2029-12-27",
+    "enrollment": 400,
+    "countries": [
+      "Lithuania"
+    ]
+  },
+  {
+    "nct_id": "NCT05641428",
+    "title": "Comparison of Point-of-care Produced CAR T-cell with Commercial CAR T-cells in Patients with R/R LBCL",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "University Medical Center Groningen",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "NHL",
+      "DLBCL - Diffuse Large B Cell Lymphoma"
+    ],
+    "interventions": [
+      {
+        "name": "ARI-0001",
+        "type": "DRUG"
+      },
+      {
+        "name": "Axi-cel",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2022-10-18",
+    "primary_completion_date": "2025-12",
+    "enrollment": 300,
+    "countries": [
+      "Netherlands"
+    ]
+  },
+  {
+    "nct_id": "NCT05502900",
+    "title": "Adjuvant Melatonin for Uveal Melanoma",
+    "phase": "Phase 3",
+    "status": "RECRUITING",
+    "sponsor": "Gustav Stalhammar",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Uveal Melanoma",
+      "Uveal Melanoma, Posterior, Medium/Large Size",
+      "Eye Cancer, Intraocular Melanoma"
+    ],
+    "interventions": [
+      {
+        "name": "Melatonin",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2022-10-02",
+    "primary_completion_date": "2031-01-01",
+    "enrollment": 100,
+    "countries": [
+      "Sweden"
+    ]
+  },
+  {
+    "nct_id": "NCT06445400",
+    "title": "A Study of BL-M07D1, BL-M07D1+Pertuzumab and BL-M07D1+Pertuzumab+Docetaxel in Patients With Unresectable Locally Advanced or Metastatic HER2-positive Breast Cancer",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Sichuan Baili Pharmaceutical Co., Ltd.",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "HER2-positive Breast Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "BL-M07D1",
+        "type": "DRUG"
+      },
+      {
+        "name": "Pertuzumab",
+        "type": "DRUG"
+      },
+      {
+        "name": "Docetaxel",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2024-06-19",
+    "primary_completion_date": "2026-06",
+    "enrollment": 120,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "nct_id": "NCT05434234",
+    "title": "A Study of YL201 in Patients With Advanced Solid Tumors",
+    "phase": "Phase 1/Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "MediLink Therapeutics (Suzhou) Co., Ltd.",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Advanced Solid Tumor"
+    ],
+    "interventions": [
+      {
+        "name": "YL201",
+        "type": "DRUG"
+      },
+      {
+        "name": "YL201",
+        "type": "DRUG"
+      },
+      {
+        "name": "YL201 and atezolizumab",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2022-05-25",
+    "primary_completion_date": "2027-04-06",
+    "enrollment": 312,
+    "countries": [
+      "Canada",
+      "China",
+      "France",
+      "Poland",
+      "Spain",
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT04254263",
+    "title": "Adjuvant Study of Pyrotinib in HER-2 Positive Breast Cancer",
+    "phase": "Phase 3",
+    "status": "RECRUITING",
+    "sponsor": "RenJi Hospital",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Locally Advanced Breast Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "pyrotinib",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2019-12-16",
+    "primary_completion_date": "2026-08",
+    "enrollment": 316,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "nct_id": "NCT05257993",
+    "title": "Study to Assess the Safety, Tolerability of JPI-547 in Combination With Modified FOLFIRINOX or Gemcitabine-nab-paclitaxel in Patients With Locally Advanced and Metastatic Pancreatic Cancer",
+    "phase": "Phase 1/Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Onconic Therapeutics Inc.",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Pancreatic Ductal Adenocarcinoma"
+    ],
+    "interventions": [
+      {
+        "name": "JPI-547",
+        "type": "DRUG"
+      },
+      {
+        "name": "modified FOLFIRINOX",
+        "type": "DRUG"
+      },
+      {
+        "name": "Gemcitabine-nab-paclitaxel",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2022-03-30",
+    "primary_completion_date": "2030-04",
+    "enrollment": 71,
+    "countries": [
+      "South Korea"
+    ]
+  },
+  {
+    "nct_id": "NCT04239157",
+    "title": "A Phase II, Open-Label, Study of Subcutaneous Canakinumab, an Anti-IL-1β Human Monoclonal Antibody, for Patients With Low or Int-1 Risk IPSS/IPSS-R Myelodysplastic Syndromes and Chronic Myelomonocytic Leukemia",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "M.D. Anderson Cancer Center",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Chronic Myelomonocytic Leukemia",
+      "Myelodysplastic Syndrome",
+      "Recurrent Chronic Myelomonocytic Leukemia",
+      "Recurrent Myelodysplastic Syndrome",
+      "Refractory Chronic Myelomonocytic Leukemia",
+      "Refractory Myelodysplastic Syndrome"
+    ],
+    "interventions": [
+      {
+        "name": "Canakinumab",
+        "type": "BIOLOGICAL"
+      }
+    ],
+    "start_date": "2020-08-25",
+    "primary_completion_date": "2026-12-31",
+    "enrollment": 76,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT05229614",
+    "title": "Immunotherapy and Carbon Ion Radiotherapy In Solid Cancers With Stable Disease",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "CNAO National Center of Oncological Hadrontherapy",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Non Small Cell Lung Cancer",
+      "Head and Neck Squamous Cell Carcinoma",
+      "Melanoma",
+      "Urothelial Carcinoma"
+    ],
+    "interventions": [
+      {
+        "name": "Carbon Ion Therapy",
+        "type": "RADIATION"
+      },
+      {
+        "name": "Immunotherapy (Pembrolizumab)",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2022-07-26",
+    "primary_completion_date": "2025-08",
+    "enrollment": 27,
+    "countries": [
+      "Germany",
+      "Italy"
+    ]
+  },
+  {
+    "nct_id": "NCT05171816",
+    "title": "Study on Olaparib Plus Abiraterone as First-line Therapy in Men With Metastatic Castration-resistant Prostate Cancer (China Cohort)",
+    "phase": "Phase 3",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "AstraZeneca",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Metastatic Castration-resistant Prostate Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "olaparib",
+        "type": "DRUG"
+      },
+      {
+        "name": "abiraterone acetate",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2021-06-24",
+    "primary_completion_date": "2024-01-22",
+    "enrollment": 110,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "nct_id": "NCT03597321",
+    "title": "Early Prophylactic Donor Lymphocyte Infusion After Allo-HSCT for Patients With AML",
+    "phase": "Phase 2",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "Institut Paoli-Calmettes",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Acute Myeloid Leukemia"
+    ],
+    "interventions": [
+      {
+        "name": "prophylactic donor lymphocyte infusion (DLI)",
+        "type": "BIOLOGICAL"
+      }
+    ],
+    "start_date": "2020-09-07",
+    "primary_completion_date": "2027-05",
+    "enrollment": 124,
+    "countries": [
+      "France"
+    ]
+  },
+  {
+    "nct_id": "NCT06754267",
+    "title": "Venetoclax Combined With Olverembatinib and Predinisone in Treating Ph+ B-ALL",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "First Affiliated Hospital of Zhejiang University",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Precursor B-Cell Acute Lymphoblastic Leukemia"
+    ],
+    "interventions": [
+      {
+        "name": "Venetoclax",
+        "type": "DRUG"
+      },
+      {
+        "name": "Olverembatinib",
+        "type": "DRUG"
+      },
+      {
+        "name": "Predinisone",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2024-12",
+    "primary_completion_date": "2025-12-30",
+    "enrollment": 36,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "nct_id": "NCT05177211",
+    "title": "Fedratinib in Myelodysplastic /Myeloproliferative Neoplasms (MDS/MPNs) and Chronic Neutrophilic Leukemia (CNL)",
+    "phase": "Phase 2",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "H. Lee Moffitt Cancer Center and Research Institute",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Myeloproliferative Neoplasm",
+      "Chronic Neutrophilic Leukemia",
+      "MDS"
+    ],
+    "interventions": [
+      {
+        "name": "Fedratinib Pill",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2022-03-01",
+    "primary_completion_date": "2025-04-10",
+    "enrollment": 25,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT07489534",
+    "title": "Study of PD-1Ab21-BCMA CAR-T Therapy for Consolidation of Multiple Myelomawith Renal Dysfunction",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Daihong Liu",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Multiple Myeloma"
+    ],
+    "interventions": [
+      {
+        "name": "PD-1Ab21-BCMA CAR-T cell immunotherapy",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2025-09-29",
+    "primary_completion_date": "2027-07-31",
+    "enrollment": 25,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "nct_id": "NCT07158021",
+    "title": "Leuprolide and Goserelin for Ovarian Function Suppression in Pre- or Peri-menopausal Women With Breast Cancer, OFS Trial",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "University of Michigan Rogel Cancer Center",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Anatomic Stage I Breast Cancer AJCC v8",
+      "Anatomic Stage II Breast Cancer AJCC v8",
+      "Anatomic Stage III Breast Cancer AJCC v8",
+      "Anatomic Stage IV Breast Cancer AJCC v8",
+      "Metastatic Breast Carcinoma"
+    ],
+    "interventions": [
+      {
+        "name": "Biospecimen Collection",
+        "type": "PROCEDURE"
+      },
+      {
+        "name": "Electronic Health Record Review",
+        "type": "OTHER"
+      },
+      {
+        "name": "Goserelin",
+        "type": "DRUG"
+      },
+      {
+        "name": "Leuprolide",
+        "type": "DRUG"
+      },
+      {
+        "name": "Questionnaire Administration",
+        "type": "OTHER"
+      }
+    ],
+    "start_date": "2026-01-22",
+    "primary_completion_date": "2028-01-01",
+    "enrollment": 75,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT05884333",
+    "title": "Cord Blood Transplant in Adults With Blood Cancers",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Memorial Sloan Kettering Cancer Center",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Acute Myelogenous Leukemia (AML)",
+      "Acute Lymphoblastic Leukemia (ALL)",
+      "Chronic Myelogenous Leukemia (CML)",
+      "Myelodysplastic Syndromes (MDS)",
+      "Myeloproliferative Disorder",
+      "Non-Hodgkin's Lymphoma"
+    ],
+    "interventions": [
+      {
+        "name": "Conditioning Chemotherapy",
+        "type": "DRUG"
+      },
+      {
+        "name": "Cord blood graft",
+        "type": "BIOLOGICAL"
+      }
+    ],
+    "start_date": "2023-05-22",
+    "primary_completion_date": "2028-05-22",
+    "enrollment": 54,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT06442748",
+    "title": "Short Versus Long-term Levetiracetam in Brain Tumors",
+    "phase": "Phase 3",
+    "status": "RECRUITING",
+    "sponsor": "Tata Memorial Centre",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Seizures",
+      "Brain Tumors",
+      "Antiepileptics",
+      "Levetiracetam"
+    ],
+    "interventions": [
+      {
+        "name": "Levetiracetam",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2024-07-04",
+    "primary_completion_date": "2031-06-01",
+    "enrollment": 604,
+    "countries": [
+      "India"
+    ]
+  },
+  {
+    "nct_id": "NCT03671044",
+    "title": "A Study to Evaluate the Efficacy and Safety of Nanosomal Docetaxel Lipid Suspension in Triple Negative Breast Cancer Patients",
+    "phase": "Phase 3",
+    "status": "RECRUITING",
+    "sponsor": "Jina Pharmaceuticals Inc.",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Triple Negative Breast Cancer"
+    ],
+    "interventions": [
+      {
+        "name": "Nanosomal Docetaxel Lipid Suspension (75 mg/m2)",
+        "type": "DRUG"
+      },
+      {
+        "name": "Nanosomal Docetaxel Lipid Suspension (100 mg/m2)",
+        "type": "DRUG"
+      },
+      {
+        "name": "Taxotere® (100 mg/m2)",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2018-07-10",
+    "primary_completion_date": "2025-05-31",
+    "enrollment": 657,
+    "countries": [
+      "India",
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT03503864",
+    "title": "Phase II Study of Combined Chemotherapy With Arsenic Trioxide in Stage 4/M Neuroblastoma",
+    "phase": "Phase 2",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "Yang Li",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Neuroblastoma"
+    ],
+    "interventions": [
+      {
+        "name": "Arsenic Trioxide",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2017-06-12",
+    "primary_completion_date": "2023-08-30",
+    "enrollment": 80,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "nct_id": "NCT05726864",
+    "title": "A Study of ELI-002 7P in Subjects With KRAS/NRAS Mutated Solid Tumors",
+    "phase": "Phase 1/Phase 2",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "Elicio Therapeutics",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Pancreatic Ductal Adenocarcinoma",
+      "Colorectal Cancer",
+      "KRAS G12D",
+      "KRAS G12R",
+      "KRAS G12V",
+      "KRAS G12A",
+      "KRAS G12C",
+      "KRAS G12S",
+      "KRAS G13D",
+      "NRAS G12D",
+      "NRAS G12R",
+      "NRAS G12V",
+      "NRAS G12C",
+      "NRAS G12S"
+    ],
+    "interventions": [
+      {
+        "name": "ELI-002 7P",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2023-04-14",
+    "primary_completion_date": "2026-11",
+    "enrollment": 158,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT07002099",
+    "title": "Selinexor, High-dose Methotrexate, and Rituximab Combined With Radiotherapy for Newly Diagnosed, Transplant-ineligible Patients With Central Nervous System Lymphoma: An Open-label, Single-arm, Multicenter Phase II Study",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Second Affiliated Hospital of Soochow University",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Lymphomas"
+    ],
+    "interventions": [
+      {
+        "name": "Selinexor + High-dose Methotrexate + Rituximab + WBRT",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2025-06-01",
+    "primary_completion_date": "2028-12-30",
+    "enrollment": 26,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "nct_id": "NCT07192432",
+    "title": "Gene Therapy for HER-Positive Cancer (SENTRY-HER2)",
+    "phase": "Phase 1/Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Vironexis Biotherapeutics Inc.",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "HER2 Expressing Solid Tumors"
+    ],
+    "interventions": [
+      {
+        "name": "Dose Level 1, VNX-202",
+        "type": "GENETIC"
+      },
+      {
+        "name": "Dose Level 2, VNX-202",
+        "type": "GENETIC"
+      },
+      {
+        "name": "Dose Level 3, VNX-202",
+        "type": "GENETIC"
+      },
+      {
+        "name": "Dose Level 4, VNX-202",
+        "type": "GENETIC"
+      }
+    ],
+    "start_date": "2025-11-18",
+    "primary_completion_date": "2033-09",
+    "enrollment": 27,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT06750484",
+    "title": "Trial of Trastuzumab Deruxtecan in Previously Treated HER2",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Yale University",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Breast Cancer Metastatic"
+    ],
+    "interventions": [
+      {
+        "name": "Trastuzumab Deruxtecan",
+        "type": "DRUG"
+      }
+    ],
+    "start_date": "2025-06-20",
+    "primary_completion_date": "2028-12-31",
+    "enrollment": 40,
+    "countries": [
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT06298552",
+    "title": "A Phase 3 Study to Evaluate the Efficacy and Safety of Efgartigimod IV in Patients With Acetylcholine Receptor Binding Antibody Seronegative Generalized Myasthenia Gravis",
+    "phase": "Phase 3",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "argenx",
+    "sponsor_class": "INDUSTRY",
+    "conditions": [
+      "Generalized Myasthenia Gravis",
+      "gMG",
+      "Myasthenia Gravis, Generalized",
+      "Myasthenia Gravis"
+    ],
+    "interventions": [
+      {
+        "name": "Efgartigimod IV",
+        "type": "BIOLOGICAL"
+      },
+      {
+        "name": "Placebo IV",
+        "type": "OTHER"
+      }
+    ],
+    "start_date": "2024-04-16",
+    "primary_completion_date": "2025-06-30",
+    "enrollment": 119,
+    "countries": [
+      "Belgium",
+      "Canada",
+      "China",
+      "Cyprus",
+      "Czechia",
+      "Denmark",
+      "Finland",
+      "France",
+      "Georgia",
+      "Germany",
+      "Greece",
+      "Hungary",
+      "Netherlands",
+      "Norway",
+      "Poland",
+      "Portugal",
+      "Romania",
+      "Saudi Arabia",
+      "Serbia",
+      "Spain",
+      "United Kingdom",
+      "United States"
+    ]
+  },
+  {
+    "nct_id": "NCT06793449",
+    "title": "BCMA CAR-T Versus ASCT in Transplant-eligible Patients With Multiple Myeloma",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "sponsor": "Institute of Hematology & Blood Diseases Hospital, China",
+    "sponsor_class": "OTHER",
+    "conditions": [
+      "Multiple Myeloma"
+    ],
+    "interventions": [
+      {
+        "name": "anti-BCMA CAR-T",
+        "type": "BIOLOGICAL"
+      },
+      {
+        "name": "ASCT",
+        "type": "BIOLOGICAL"
+      }
+    ],
+    "start_date": "2025-02-05",
+    "primary_completion_date": "2026-12",
+    "enrollment": 80,
+    "countries": [
+      "China"
+    ]
+  }
+]
