@@ -1,0 +1,852 @@
+[
+  {
+    "country": "United Kingdom",
+    "iso_code": "GB",
+    "income_group": "HIC",
+    "has_formal_hta": true,
+    "hta_bodies": [
+      {
+        "name": "National Institute for Health and Care Excellence",
+        "abbreviation": "NICE",
+        "role": "assessment",
+        "website": "https://www.nice.org.uk"
+      },
+      {
+        "name": "Scottish Medicines Consortium",
+        "abbreviation": "SMC",
+        "role": "assessment",
+        "website": "https://www.scottishmedicines.org.uk"
+      },
+      {
+        "name": "All Wales Therapeutics and Toxicology Centre",
+        "abbreviation": "AWTTC",
+        "role": "assessment",
+        "website": "https://awttc.nhs.wales"
+      },
+      {
+        "name": "Medicines and Healthcare products Regulatory Agency",
+        "abbreviation": "MHRA",
+        "role": "regulator",
+        "website": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency"
+      }
+    ],
+    "pathway_steps": [
+      {"step": 1, "label": "Marketing authorisation (MHRA, post-Brexit national route or EC Decision Reliance Procedure)", "typical_months": "12-18"},
+      {"step": 2, "label": "NICE technology appraisal submission (England/Wales)", "typical_months": "0-2"},
+      {"step": 3, "label": "NICE evidence review (ERG/EAG) and committee appraisal", "typical_months": "6-9"},
+      {"step": 4, "label": "Final NICE guidance published", "typical_months": "9-12"},
+      {"step": 5, "label": "NHS England funding legally mandated within 90 days", "typical_months": "3"},
+      {"step": 6, "label": "Parallel SMC review for Scotland", "typical_months": "6-9"}
+    ],
+    "notes": "Largest HTA system in Europe by volume of assessments. Cancer Drugs Fund offers managed-access pathway for oncology while evidence matures. Voluntary Scheme for Branded Medicines Pricing and Access (VPAS / now 2024 VPAG) caps overall NHS drug spend. Post-Brexit MHRA can use EC Decision Reliance Procedure or independent national route.",
+    "sources": [
+      "https://www.nice.org.uk/about/what-we-do/our-programmes/nice-guidance/nice-technology-appraisal-guidance",
+      "https://www.scottishmedicines.org.uk/how-we-decide/",
+      "https://www.gov.uk/guidance/guidance-on-licensing-procedures-in-the-uk"
+    ]
+  },
+  {
+    "country": "Germany",
+    "iso_code": "DE",
+    "income_group": "HIC",
+    "has_formal_hta": true,
+    "hta_bodies": [
+      {
+        "name": "Gemeinsamer Bundesausschuss",
+        "abbreviation": "G-BA",
+        "role": "decision",
+        "website": "https://www.g-ba.de"
+      },
+      {
+        "name": "Institut fuer Qualitaet und Wirtschaftlichkeit im Gesundheitswesen",
+        "abbreviation": "IQWiG",
+        "role": "assessment",
+        "website": "https://www.iqwig.de"
+      },
+      {
+        "name": "GKV-Spitzenverband",
+        "abbreviation": "GKV-SV",
+        "role": "payer",
+        "website": "https://www.gkv-spitzenverband.de"
+      }
+    ],
+    "pathway_steps": [
+      {"step": 1, "label": "Marketing authorisation (EMA centralised)", "typical_months": "12-15"},
+      {"step": 2, "label": "Free pricing at launch (AMNOG)", "typical_months": "0"},
+      {"step": 3, "label": "Benefit assessment dossier submission to G-BA", "typical_months": "0-1"},
+      {"step": 4, "label": "IQWiG benefit assessment", "typical_months": "3"},
+      {"step": 5, "label": "G-BA decision on additional benefit", "typical_months": "3"},
+      {"step": 6, "label": "Price negotiation between manufacturer and GKV-SV", "typical_months": "6"},
+      {"step": 7, "label": "Negotiated price effective (retroactive if no deal by month 12)", "typical_months": "12"}
+    ],
+    "notes": "Unique among EU majors: free pricing at launch, mandatory added-benefit assessment within 12 months. Fastest initial access in EU but exposure to price cuts if no benefit shown. GSAV 2019 tightened rules for orphan drugs (threshold lowered to 30M euro revenue). GKV-FinStG 2022 introduced combination therapy discount and further price-cut triggers.",
+    "sources": [
+      "https://www.g-ba.de/english/",
+      "https://www.iqwig.de/en/",
+      "https://www.gkv-spitzenverband.de/english/statutory_health_insurance/benefit_assessment/benefit_assessment.jsp"
+    ]
+  },
+  {
+    "country": "France",
+    "iso_code": "FR",
+    "income_group": "HIC",
+    "has_formal_hta": true,
+    "hta_bodies": [
+      {
+        "name": "Haute Autorite de Sante",
+        "abbreviation": "HAS",
+        "role": "assessment",
+        "website": "https://www.has-sante.fr"
+      },
+      {
+        "name": "Commission de la Transparence (HAS)",
+        "abbreviation": "CT",
+        "role": "assessment",
+        "website": "https://www.has-sante.fr/jcms/c_412210/en/the-transparency-committee"
+      },
+      {
+        "name": "Commission Evaluation Economique et de Sante Publique (HAS)",
+        "abbreviation": "CEESP",
+        "role": "assessment",
+        "website": "https://www.has-sante.fr/jcms/c_1120035/en/ceesp"
+      },
+      {
+        "name": "Comite Economique des Produits de Sante",
+        "abbreviation": "CEPS",
+        "role": "payer",
+        "website": "https://sante.gouv.fr/ministere/acteurs/instances-rattachees/article/comite-economique-des-produits-de-sante-ceps"
+      }
+    ],
+    "pathway_steps": [
+      {"step": 1, "label": "Marketing authorisation (EMA centralised)", "typical_months": "12-15"},
+      {"step": 2, "label": "Early-access authorisation possible (Autorisation d'Acces Precoce, replacing ATU since 2021)", "typical_months": "0-3"},
+      {"step": 3, "label": "HAS Transparency Commission evaluation - SMR (actual benefit) and ASMR (added benefit)", "typical_months": "3-6"},
+      {"step": 4, "label": "CEESP economic evaluation if significant budget impact and ASMR I-III", "typical_months": "3-6"},
+      {"step": 5, "label": "CEPS price negotiation with manufacturer", "typical_months": "3-6"},
+      {"step": 6, "label": "UNCAM sets reimbursement rate (15/30/65/100 percent)", "typical_months": "1-2"},
+      {"step": 7, "label": "Publication in Journal Officiel and availability on national formulary", "typical_months": "1"}
+    ],
+    "notes": "Five-level ASMR rating (I = major, V = no added benefit) drives pricing. Access negotiations can extend total timeline to 15-24 months. Autorisation d'Acces Precoce replaced the ATU system in July 2021 and offers pre-launch reimbursed access for severe or rare conditions. Recent LFSS 2024 laws tighten compassionate use reporting.",
+    "sources": [
+      "https://www.has-sante.fr/jcms/c_5232/en/assessment-of-medicinal-products",
+      "https://sante.gouv.fr/soins-et-maladies/medicaments/le-circuit-du-medicament/article/le-circuit-du-medicament-en-france",
+      "https://ansm.sante.fr/"
+    ]
+  },
+  {
+    "country": "Netherlands",
+    "iso_code": "NL",
+    "income_group": "HIC",
+    "has_formal_hta": true,
+    "hta_bodies": [
+      {
+        "name": "Zorginstituut Nederland",
+        "abbreviation": "ZIN",
+        "role": "assessment",
+        "website": "https://www.zorginstituutnederland.nl"
+      },
+      {
+        "name": "Ministerie van Volksgezondheid, Welzijn en Sport",
+        "abbreviation": "VWS",
+        "role": "decision",
+        "website": "https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport"
+      },
+      {
+        "name": "College ter Beoordeling van Geneesmiddelen",
+        "abbreviation": "CBG-MEB",
+        "role": "regulator",
+        "website": "https://www.cbg-meb.nl"
+      }
+    ],
+    "pathway_steps": [
+      {"step": 1, "label": "Marketing authorisation (EMA centralised)", "typical_months": "12-15"},
+      {"step": 2, "label": "Automatic inclusion in basic package unless flagged for ZIN review (sluis criteria)", "typical_months": "0"},
+      {"step": 3, "label": "Sluis lock if expected cost > 50,000 euro per patient per year or budget impact > 40M euro per year", "typical_months": "0"},
+      {"step": 4, "label": "ZIN pharmacoeconomic and relative therapeutic value assessment", "typical_months": "6-12"},
+      {"step": 5, "label": "VWS Minister price negotiation with manufacturer", "typical_months": "6-12"},
+      {"step": 6, "label": "Publication of negotiated agreement and package inclusion", "typical_months": "1-2"}
+    ],
+    "notes": "Outpatient drugs go through GVS; hospital drugs via DBC/add-on mechanism. The 'sluis' (lock) system delays access for high-cost hospital drugs pending negotiation - a persistent source of friction with industry. ZIN publishes assessment reports (beoordelingsrapporten) in Dutch on its site. Horizon scanning is performed by the Horizonscan Geneesmiddelen.",
+    "sources": [
+      "https://english.zorginstituutnederland.nl/",
+      "https://www.horizonscangeneesmiddelen.nl/",
+      "https://www.cbg-meb.nl/"
+    ]
+  },
+  {
+    "country": "Sweden",
+    "iso_code": "SE",
+    "income_group": "HIC",
+    "has_formal_hta": true,
+    "hta_bodies": [
+      {
+        "name": "Tandvards- och lakemedelsformansverket",
+        "abbreviation": "TLV",
+        "role": "decision",
+        "website": "https://www.tlv.se"
+      },
+      {
+        "name": "NT-radet (New Therapies Council)",
+        "abbreviation": "NT",
+        "role": "advisory",
+        "website": "https://janusinfo.se/nationelltinforandeavlakemedel"
+      },
+      {
+        "name": "Lakemedelsverket",
+        "abbreviation": "MPA",
+        "role": "regulator",
+        "website": "https://www.lakemedelsverket.se"
+      }
+    ],
+    "pathway_steps": [
+      {"step": 1, "label": "Marketing authorisation (EMA centralised)", "typical_months": "12-15"},
+      {"step": 2, "label": "Outpatient drugs: TLV application for reimbursement in the pharmaceutical benefits scheme", "typical_months": "0-1"},
+      {"step": 3, "label": "TLV value-based price decision (180 days statutory)", "typical_months": "6"},
+      {"step": 4, "label": "Inpatient drugs: NT-radet managed introduction recommendation to 21 regions", "typical_months": "3-6"},
+      {"step": 5, "label": "Regional implementation and formulary uptake", "typical_months": "3-12"}
+    ],
+    "notes": "Split system: TLV covers outpatient (fixed 180-day clock), NT-council coordinates hospital/regional decisions. Regions have autonomy over inpatient use. Managed entry agreements common for expensive hospital drugs (cancer, rare disease). TLV value threshold not published but understood around 500k SEK per QALY for severe conditions.",
+    "sources": [
+      "https://www.tlv.se/in-english.html",
+      "https://janusinfo.se/nationelltinforandeavlakemedel",
+      "https://www.lakemedelsverket.se/en"
+    ]
+  },
+  {
+    "country": "Italy",
+    "iso_code": "IT",
+    "income_group": "HIC",
+    "has_formal_hta": true,
+    "hta_bodies": [
+      {
+        "name": "Agenzia Italiana del Farmaco",
+        "abbreviation": "AIFA",
+        "role": "decision",
+        "website": "https://www.aifa.gov.it"
+      },
+      {
+        "name": "Commissione Tecnico-Scientifica (AIFA)",
+        "abbreviation": "CTS",
+        "role": "assessment",
+        "website": "https://www.aifa.gov.it"
+      },
+      {
+        "name": "Comitato Prezzi e Rimborso (AIFA)",
+        "abbreviation": "CPR",
+        "role": "payer",
+        "website": "https://www.aifa.gov.it"
+      }
+    ],
+    "pathway_steps": [
+      {"step": 1, "label": "Marketing authorisation (EMA centralised)", "typical_months": "12-15"},
+      {"step": 2, "label": "AIFA national authorisation with class C (unreimbursed) status", "typical_months": "0-1"},
+      {"step": 3, "label": "Reimbursement dossier submitted to AIFA", "typical_months": "0-3"},
+      {"step": 4, "label": "CTS scientific assessment - innovation rating (full / conditional / none)", "typical_months": "3-6"},
+      {"step": 5, "label": "CPR price and reimbursement negotiation", "typical_months": "3-6"},
+      {"step": 6, "label": "Gazzetta Ufficiale publication - class A (reimbursed) or H (hospital only)", "typical_months": "1-2"},
+      {"step": 7, "label": "Regional formulary adoption (highly variable across 20 regions)", "typical_months": "3-12"}
+    ],
+    "notes": "Innovation rating grants access to the innovation fund (500M euro per year split oncology/non-oncology) and priority regional uptake. Payback mechanisms (hospital and territorial) claw back budget overruns from manufacturers. 2024 reform consolidated CTS and CPR into a single Commissione Scientifica Economica del Farmaco (CSE), effective late 2023 - timing of full transition still settling.",
+    "sources": [
+      "https://www.aifa.gov.it/en/web/guest/home",
+      "https://www.gazzettaufficiale.it/",
+      "https://www.salute.gov.it/portale/home.html"
+    ]
+  },
+  {
+    "country": "Spain",
+    "iso_code": "ES",
+    "income_group": "HIC",
+    "has_formal_hta": true,
+    "hta_bodies": [
+      {
+        "name": "Agencia Espanola de Medicamentos y Productos Sanitarios",
+        "abbreviation": "AEMPS",
+        "role": "regulator",
+        "website": "https://www.aemps.gob.es"
+      },
+      {
+        "name": "Direccion General de Cartera Comun de Servicios del SNS y Farmacia",
+        "abbreviation": "DGCYSF",
+        "role": "decision",
+        "website": "https://www.sanidad.gob.es"
+      },
+      {
+        "name": "Comision Interministerial de Precios de los Medicamentos",
+        "abbreviation": "CIPM",
+        "role": "payer",
+        "website": "https://www.sanidad.gob.es"
+      },
+      {
+        "name": "Red Espanola de Agencias de Evaluacion de Tecnologias Sanitarias (RedETS)",
+        "abbreviation": "RedETS",
+        "role": "assessment",
+        "website": "https://redets.sanidad.gob.es"
+      }
+    ],
+    "pathway_steps": [
+      {"step": 1, "label": "Marketing authorisation (EMA centralised)", "typical_months": "12-15"},
+      {"step": 2, "label": "AEMPS national labelling and code assignment", "typical_months": "1-2"},
+      {"step": 3, "label": "DGCYSF pricing and reimbursement application", "typical_months": "0-1"},
+      {"step": 4, "label": "Therapeutic positioning report (IPT) coordinated by AEMPS and autonomous communities", "typical_months": "3-9"},
+      {"step": 5, "label": "CIPM price negotiation and national reimbursement decision", "typical_months": "6-12"},
+      {"step": 6, "label": "Regional formulary evaluation in the 17 autonomous communities", "typical_months": "3-12"}
+    ],
+    "notes": "Known for the longest EU4 access delays - national decision averages 15-24 months post-EMA. Regional fragmentation adds further delay, with wealthier regions (Madrid, Catalunya, Basque) adopting earlier than others. 2023 Royal Decree on medicinal products strengthens IPT process. Valtermed registry-based managed-entry agreements increasingly common for expensive hospital drugs.",
+    "sources": [
+      "https://www.aemps.gob.es/",
+      "https://www.sanidad.gob.es/profesionales/farmacia/home.htm",
+      "https://redets.sanidad.gob.es/"
+    ]
+  },
+  {
+    "country": "Belgium",
+    "iso_code": "BE",
+    "income_group": "HIC",
+    "has_formal_hta": true,
+    "hta_bodies": [
+      {
+        "name": "Rijksinstituut voor Ziekte- en Invaliditeitsverzekering / INAMI",
+        "abbreviation": "RIZIV-INAMI",
+        "role": "payer",
+        "website": "https://www.riziv.fgov.be"
+      },
+      {
+        "name": "Commissie Tegemoetkoming Geneesmiddelen / Commission de Remboursement des Medicaments",
+        "abbreviation": "CTG-CRM",
+        "role": "assessment",
+        "website": "https://www.riziv.fgov.be"
+      },
+      {
+        "name": "Federaal Agentschap voor Geneesmiddelen en Gezondheidsproducten",
+        "abbreviation": "FAGG-AFMPS",
+        "role": "regulator",
+        "website": "https://www.fagg.be"
+      },
+      {
+        "name": "Belgian Health Care Knowledge Centre",
+        "abbreviation": "KCE",
+        "role": "advisory",
+        "website": "https://kce.fgov.be"
+      }
+    ],
+    "pathway_steps": [
+      {"step": 1, "label": "Marketing authorisation (EMA centralised)", "typical_months": "12-15"},
+      {"step": 2, "label": "Reimbursement application to RIZIV-INAMI (class 1, 2 or 3 based on added value)", "typical_months": "0-1"},
+      {"step": 3, "label": "CTG-CRM assessment and scientific advice", "typical_months": "3-6"},
+      {"step": 4, "label": "Minister of Social Affairs decision within 180 days statutory", "typical_months": "6"},
+      {"step": 5, "label": "Confidential Article 81bis / 111 managed-entry agreement where applicable", "typical_months": "3-6"}
+    ],
+    "notes": "Beneluxa initiative (BE, NL, LU, AT, IE) conducts joint HTA and joint price negotiations for selected products - growing influence post-EU JCA. Article 81bis (2010) and Article 111 (2024) contracts provide confidential pricing for novel/high-cost therapies. KCE performs country-wide HTA research that informs CRM decisions but does not decide reimbursement itself.",
+    "sources": [
+      "https://www.riziv.fgov.be/en/themes/cost-reimbursement/pharmaceuticals/Paginas/default.aspx",
+      "https://kce.fgov.be/en",
+      "https://beneluxa.org/"
+    ]
+  },
+  {
+    "country": "United States",
+    "iso_code": "US",
+    "income_group": "HIC",
+    "has_formal_hta": false,
+    "hta_bodies": [
+      {
+        "name": "Food and Drug Administration",
+        "abbreviation": "FDA",
+        "role": "regulator",
+        "website": "https://www.fda.gov"
+      },
+      {
+        "name": "Centers for Medicare and Medicaid Services",
+        "abbreviation": "CMS",
+        "role": "payer",
+        "website": "https://www.cms.gov"
+      },
+      {
+        "name": "Institute for Clinical and Economic Review",
+        "abbreviation": "ICER",
+        "role": "advisory",
+        "website": "https://icer.org"
+      }
+    ],
+    "pathway_steps": [
+      {"step": 1, "label": "FDA approval (BLA or NDA)", "typical_months": "6-12"},
+      {"step": 2, "label": "Manufacturer sets list price (WAC) - no national negotiation except Medicare Drug Price Negotiation (IRA 2022, select drugs)", "typical_months": "0"},
+      {"step": 3, "label": "ICER value assessment published - non-binding, informs payer negotiations", "typical_months": "3-12"},
+      {"step": 4, "label": "CMS coverage determinations: NCD for select drugs, otherwise LCD or claims-based", "typical_months": "3-12"},
+      {"step": 5, "label": "Commercial PBM formulary placement (tiers, step therapy, prior auth)", "typical_months": "3-6"},
+      {"step": 6, "label": "340B and Medicaid best-price rules apply automatically", "typical_months": "0"}
+    ],
+    "notes": "No single national HTA. ICER fills a de facto assessment role; its cost-effectiveness benchmarks increasingly cited in payer contracts. Inflation Reduction Act 2022 introduced Medicare Drug Price Negotiation for 10 drugs effective 2026, expanding each year. Medicaid and VA obtain statutory best prices. PBMs (CVS Caremark, Express Scripts, OptumRx) control commercial formularies for ~80 percent of insured lives.",
+    "sources": [
+      "https://www.fda.gov/drugs",
+      "https://www.cms.gov/medicare/coverage",
+      "https://icer.org/our-approach/methods-process/"
+    ]
+  },
+  {
+    "country": "Canada",
+    "iso_code": "CA",
+    "income_group": "HIC",
+    "has_formal_hta": true,
+    "hta_bodies": [
+      {
+        "name": "Health Canada",
+        "abbreviation": "HC",
+        "role": "regulator",
+        "website": "https://www.canada.ca/en/health-canada.html"
+      },
+      {
+        "name": "Canada's Drug Agency (formerly CADTH)",
+        "abbreviation": "CDA-AMC",
+        "role": "assessment",
+        "website": "https://www.cda-amc.ca"
+      },
+      {
+        "name": "Institut national d'excellence en sante et en services sociaux (Quebec)",
+        "abbreviation": "INESSS",
+        "role": "assessment",
+        "website": "https://www.inesss.qc.ca"
+      },
+      {
+        "name": "pan-Canadian Pharmaceutical Alliance",
+        "abbreviation": "pCPA",
+        "role": "payer",
+        "website": "https://www.pcpacanada.ca"
+      },
+      {
+        "name": "Patented Medicine Prices Review Board",
+        "abbreviation": "PMPRB",
+        "role": "regulator",
+        "website": "https://www.canada.ca/en/patented-medicine-prices-review.html"
+      }
+    ],
+    "pathway_steps": [
+      {"step": 1, "label": "Health Canada Notice of Compliance (NOC)", "typical_months": "12-18"},
+      {"step": 2, "label": "CDA-AMC reimbursement review (pERC for cancer drugs, CDEC for non-oncology)", "typical_months": "6-9"},
+      {"step": 3, "label": "INESSS separate review for Quebec", "typical_months": "6-9"},
+      {"step": 4, "label": "pCPA pan-Canadian price negotiation with manufacturer", "typical_months": "6-12"},
+      {"step": 5, "label": "Provincial and territorial formulary listing decisions (13 jurisdictions)", "typical_months": "3-9"},
+      {"step": 6, "label": "PMPRB ceiling price compliance check", "typical_months": "ongoing"}
+    ],
+    "notes": "CADTH rebranded as Canada's Drug Agency (CDA-AMC) in 2024. Federal-provincial split causes persistent access variability. pCPA negotiates a single national price framework that provinces then implement. Oncology drugs reviewed by pERC with separate clinical/economic streams; non-cancer via CDEC. PMPRB reforms proposed 2019-2022 were largely withdrawn in 2022 after industry pushback.",
+    "sources": [
+      "https://www.cda-amc.ca/reimbursement-review-reports",
+      "https://www.pcpacanada.ca/negotiations",
+      "https://www.inesss.qc.ca/en/themes/medication.html"
+    ]
+  },
+  {
+    "country": "Australia",
+    "iso_code": "AU",
+    "income_group": "HIC",
+    "has_formal_hta": true,
+    "hta_bodies": [
+      {
+        "name": "Therapeutic Goods Administration",
+        "abbreviation": "TGA",
+        "role": "regulator",
+        "website": "https://www.tga.gov.au"
+      },
+      {
+        "name": "Pharmaceutical Benefits Advisory Committee",
+        "abbreviation": "PBAC",
+        "role": "assessment",
+        "website": "https://www.pbs.gov.au/info/industry/listing/elements/pbac-meetings"
+      },
+      {
+        "name": "Pharmaceutical Benefits Scheme",
+        "abbreviation": "PBS",
+        "role": "payer",
+        "website": "https://www.pbs.gov.au"
+      }
+    ],
+    "pathway_steps": [
+      {"step": 1, "label": "TGA registration on the Australian Register of Therapeutic Goods", "typical_months": "9-12"},
+      {"step": 2, "label": "PBAC submission (three cycles per year: March, July, November)", "typical_months": "0-4"},
+      {"step": 3, "label": "PBAC economic and clinical evaluation", "typical_months": "3-4"},
+      {"step": 4, "label": "PBAC recommendation - recommend / reject / defer", "typical_months": "0"},
+      {"step": 5, "label": "Price negotiation and Cabinet approval if annual cost > 20M AUD", "typical_months": "3-6"},
+      {"step": 6, "label": "PBS listing date (generally first of a month)", "typical_months": "1-3"}
+    ],
+    "notes": "PBAC uses strict cost-per-QALY with willingness-to-pay bands (typically 40-60k AUD per QALY for symptomatic conditions, 80k+ for severe / life-threatening). Managed access program (MAP) and deeds of agreement for uncertain evidence. Life Saving Drugs Program (LSDP) is a parallel pathway for ultra-rare conditions. Recent HTA review 2023-2024 recommended significant process reforms - implementation ongoing.",
+    "sources": [
+      "https://www.pbs.gov.au/info/industry/listing/procedure-guidance",
+      "https://www.tga.gov.au/",
+      "https://www.health.gov.au/resources/publications/hta-review-final-report"
+    ]
+  },
+  {
+    "country": "Japan",
+    "iso_code": "JP",
+    "income_group": "HIC",
+    "has_formal_hta": true,
+    "hta_bodies": [
+      {
+        "name": "Pharmaceuticals and Medical Devices Agency",
+        "abbreviation": "PMDA",
+        "role": "regulator",
+        "website": "https://www.pmda.go.jp/english/"
+      },
+      {
+        "name": "Chuikyo (Central Social Insurance Medical Council)",
+        "abbreviation": "Chuikyo",
+        "role": "decision",
+        "website": "https://www.mhlw.go.jp/stf/shingi/shingi-chuo_128154.html"
+      },
+      {
+        "name": "Center for Outcomes Research and Economic Evaluation for Health (C2H, NIPH)",
+        "abbreviation": "C2H",
+        "role": "assessment",
+        "website": "https://c2h.niph.go.jp/en/"
+      },
+      {
+        "name": "Ministry of Health, Labour and Welfare",
+        "abbreviation": "MHLW",
+        "role": "decision",
+        "website": "https://www.mhlw.go.jp/english/"
+      }
+    ],
+    "pathway_steps": [
+      {"step": 1, "label": "PMDA regulatory review and MHLW approval", "typical_months": "12-15"},
+      {"step": 2, "label": "NHI price listing application", "typical_months": "0-2"},
+      {"step": 3, "label": "Chuikyo Pharmaceutical Price Calculation Rule sets initial price (similar-efficacy comparator or cost calculation)", "typical_months": "1-2"},
+      {"step": 4, "label": "NHI listing on the price list (typically 60-90 days post approval)", "typical_months": "3"},
+      {"step": 5, "label": "C2H cost-effectiveness appraisal for selected high-cost / innovative drugs (post-launch)", "typical_months": "12-18"},
+      {"step": 6, "label": "Biennial NHI price revision every April (large cuts possible)", "typical_months": "24"}
+    ],
+    "notes": "NHI listing is fast (~60 days post-MHLW approval), among the quickest globally. Cost-effectiveness assessment (since 2019) is post-launch and adjusts price rather than gating access. Premium categories include Usefulness I/II, Innovativeness, Pediatric, SAKIGAKE. Biennial revision + price maintenance premium (PMP) rules drive constant re-negotiation.",
+    "sources": [
+      "https://www.pmda.go.jp/english/review-services/outline/0001.html",
+      "https://c2h.niph.go.jp/en/tools/guideline/",
+      "https://www.mhlw.go.jp/english/policy/health-medical/pharmaceuticals/"
+    ]
+  },
+  {
+    "country": "South Korea",
+    "iso_code": "KR",
+    "income_group": "HIC",
+    "has_formal_hta": true,
+    "hta_bodies": [
+      {
+        "name": "Ministry of Food and Drug Safety",
+        "abbreviation": "MFDS",
+        "role": "regulator",
+        "website": "https://www.mfds.go.kr/eng/"
+      },
+      {
+        "name": "Health Insurance Review and Assessment Service",
+        "abbreviation": "HIRA",
+        "role": "assessment",
+        "website": "https://www.hira.or.kr/eng/main.do"
+      },
+      {
+        "name": "National Health Insurance Service",
+        "abbreviation": "NHIS",
+        "role": "payer",
+        "website": "https://www.nhis.or.kr/english/"
+      },
+      {
+        "name": "Ministry of Health and Welfare",
+        "abbreviation": "MOHW",
+        "role": "decision",
+        "website": "https://www.mohw.go.kr/eng/"
+      }
+    ],
+    "pathway_steps": [
+      {"step": 1, "label": "MFDS authorisation", "typical_months": "10-12"},
+      {"step": 2, "label": "HIRA Pharmaceutical Benefit Coverage Assessment Committee (PBCAC) review", "typical_months": "4-6"},
+      {"step": 3, "label": "NHIS price negotiation (60 days statutory, often extended)", "typical_months": "2-4"},
+      {"step": 4, "label": "MOHW Drug Reimbursement Evaluation Committee final decision", "typical_months": "1-2"},
+      {"step": 5, "label": "Risk-sharing agreement option for innovative / uncertain-evidence drugs", "typical_months": "2-4"}
+    ],
+    "notes": "Positive-list reimbursement system since 2007. Value-based pricing with external reference to 7 comparator countries (A7). Risk-sharing agreements (RSA) since 2013 now cover most oncology and rare-disease launches. 2022 NHIS reform introduced Fast-Track for severe life-threatening conditions. Access to new oncology typically 6-15 months post-MFDS approval.",
+    "sources": [
+      "https://www.hira.or.kr/eng/main.do",
+      "https://www.mfds.go.kr/eng/index.do",
+      "https://www.nhis.or.kr/english/wbheaa03000m01.do"
+    ]
+  },
+  {
+    "country": "New Zealand",
+    "iso_code": "NZ",
+    "income_group": "HIC",
+    "has_formal_hta": true,
+    "hta_bodies": [
+      {
+        "name": "Medsafe",
+        "abbreviation": "Medsafe",
+        "role": "regulator",
+        "website": "https://www.medsafe.govt.nz"
+      },
+      {
+        "name": "Pharmaceutical Management Agency",
+        "abbreviation": "Pharmac",
+        "role": "decision",
+        "website": "https://pharmac.govt.nz"
+      }
+    ],
+    "pathway_steps": [
+      {"step": 1, "label": "Medsafe registration", "typical_months": "9-12"},
+      {"step": 2, "label": "Pharmac funding application", "typical_months": "0-6"},
+      {"step": 3, "label": "Pharmac Pharmacology and Therapeutics Advisory Committee (PTAC) review", "typical_months": "6-12"},
+      {"step": 4, "label": "Pharmac commercial negotiation and hard budget-cap decision", "typical_months": "6-24"},
+      {"step": 5, "label": "Listing on the Pharmaceutical Schedule", "typical_months": "1-3"}
+    ],
+    "notes": "Pharmac operates under a hard fixed annual budget, unique globally - creates long queues for funding decisions. Median access delay from Medsafe approval is the longest in OECD (~2+ years). Budget increase of 1.8B NZD over 2024-2028 announced in 2024 is easing backlog. No formal cost-per-QALY threshold; relative cost-effectiveness ranking against current waitlist.",
+    "sources": [
+      "https://pharmac.govt.nz/medicines/how-we-decide-which-medicines-to-fund/",
+      "https://www.medsafe.govt.nz/",
+      "https://www.health.govt.nz/"
+    ]
+  },
+  {
+    "country": "Thailand",
+    "iso_code": "TH",
+    "income_group": "UMIC",
+    "has_formal_hta": true,
+    "hta_bodies": [
+      {
+        "name": "Health Intervention and Technology Assessment Program",
+        "abbreviation": "HITAP",
+        "role": "assessment",
+        "website": "https://www.hitap.net"
+      },
+      {
+        "name": "Subcommittee for Development of the National List of Essential Medicines",
+        "abbreviation": "NLEM-SC",
+        "role": "decision",
+        "website": "https://ndi.fda.moph.go.th/"
+      },
+      {
+        "name": "Thai Food and Drug Administration",
+        "abbreviation": "Thai FDA",
+        "role": "regulator",
+        "website": "https://www.fda.moph.go.th/"
+      },
+      {
+        "name": "National Health Security Office",
+        "abbreviation": "NHSO",
+        "role": "payer",
+        "website": "https://eng.nhso.go.th/"
+      }
+    ],
+    "pathway_steps": [
+      {"step": 1, "label": "Thai FDA registration", "typical_months": "12-18"},
+      {"step": 2, "label": "NLEM inclusion proposal with HITAP evaluation (cost-effectiveness, budget impact)", "typical_months": "9-15"},
+      {"step": 3, "label": "NLEM Subcommittee decision based on HITAP report and 160k THB per QALY threshold", "typical_months": "6"},
+      {"step": 4, "label": "Price negotiation coordinated by MoPH", "typical_months": "3-6"},
+      {"step": 5, "label": "Availability under Universal Coverage Scheme (UCS), Social Security Scheme (SSS), Civil Servant Medical Benefit Scheme (CSMBS)", "typical_months": "3-6"}
+    ],
+    "notes": "First LMIC to institutionalise HTA-driven reimbursement (HITAP founded 2007). Explicit willingness-to-pay threshold of 160,000 THB per QALY (~4,500 USD). Three insurance schemes cover ~99 percent of population but with different benefit packages - UCS is the largest, most restrictive. HITAP widely cited as exemplar for LMIC HTA capacity building.",
+    "sources": [
+      "https://www.hitap.net/en/research/thailand",
+      "https://eng.nhso.go.th/view/1/home/EN-US",
+      "https://ndi.fda.moph.go.th/"
+    ]
+  },
+  {
+    "country": "Brazil",
+    "iso_code": "BR",
+    "income_group": "UMIC",
+    "has_formal_hta": true,
+    "hta_bodies": [
+      {
+        "name": "Agencia Nacional de Vigilancia Sanitaria",
+        "abbreviation": "ANVISA",
+        "role": "regulator",
+        "website": "https://www.gov.br/anvisa/pt-br/english"
+      },
+      {
+        "name": "Comissao Nacional de Incorporacao de Tecnologias no SUS",
+        "abbreviation": "Conitec",
+        "role": "assessment",
+        "website": "https://www.gov.br/conitec/pt-br"
+      },
+      {
+        "name": "Camara de Regulacao do Mercado de Medicamentos",
+        "abbreviation": "CMED",
+        "role": "payer",
+        "website": "https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/cmed"
+      }
+    ],
+    "pathway_steps": [
+      {"step": 1, "label": "ANVISA registration", "typical_months": "12-24"},
+      {"step": 2, "label": "CMED price ceiling set for private-market sale", "typical_months": "1-3"},
+      {"step": 3, "label": "Conitec incorporation request for SUS public-system access", "typical_months": "0-3"},
+      {"step": 4, "label": "Conitec technical-scientific assessment, public consultation, plenary decision (180 days statutory + extensions)", "typical_months": "6-12"},
+      {"step": 5, "label": "Ministry of Health decision and SUS incorporation ordinance", "typical_months": "3-6"},
+      {"step": 6, "label": "State Health Secretariat adoption and procurement", "typical_months": "3-12"}
+    ],
+    "notes": "Dual market: ~75 percent of population relies on SUS (public), 25 percent has private health plans. Conitec uses cost-effectiveness and budget impact but without a fixed threshold. Judicialization (patient-initiated lawsuits) is a major access pathway around formal HTA - court-ordered provision represents billions of BRL annually. PDP (productive development partnerships) can trigger local-manufacturing-linked access.",
+    "sources": [
+      "https://www.gov.br/conitec/pt-br",
+      "https://www.gov.br/anvisa/pt-br",
+      "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/i/ictq"
+    ]
+  },
+  {
+    "country": "South Africa",
+    "iso_code": "ZA",
+    "income_group": "UMIC",
+    "has_formal_hta": false,
+    "hta_bodies": [
+      {
+        "name": "South African Health Products Regulatory Authority",
+        "abbreviation": "SAHPRA",
+        "role": "regulator",
+        "website": "https://www.sahpra.org.za"
+      },
+      {
+        "name": "National Essential Medicine List Committee",
+        "abbreviation": "NEMLC",
+        "role": "assessment",
+        "website": "https://www.health.gov.za/nhi/"
+      },
+      {
+        "name": "National Department of Health",
+        "abbreviation": "NDoH",
+        "role": "decision",
+        "website": "https://www.health.gov.za"
+      }
+    ],
+    "pathway_steps": [
+      {"step": 1, "label": "SAHPRA registration", "typical_months": "18-36"},
+      {"step": 2, "label": "Single Exit Price (SEP) submission for private sector", "typical_months": "1-3"},
+      {"step": 3, "label": "NEMLC review for inclusion on STG/EML (public sector)", "typical_months": "6-12"},
+      {"step": 4, "label": "Provincial tender and procurement for public hospitals", "typical_months": "3-12"},
+      {"step": 5, "label": "Private medical-scheme formulary decisions (Prescribed Minimum Benefits framework)", "typical_months": "3-12"}
+    ],
+    "notes": "No unified HTA body yet - NHI Bill (signed May 2024) proposes an Office of Health Products Procurement and central HTA function, but implementation in flux. Large private/public split: Discovery and other medical schemes cover ~16 percent of population at HIC-level pricing, rest access public sector at EML-constrained pricing. SAHPRA has substantial registration backlog; reliance on SRA/WHO PQ routes increasing.",
+    "sources": [
+      "https://www.sahpra.org.za/",
+      "https://www.health.gov.za/nhi/",
+      "https://www.medicalschemes.co.za/"
+    ]
+  },
+  {
+    "country": "India",
+    "iso_code": "IN",
+    "income_group": "LMIC",
+    "has_formal_hta": false,
+    "hta_bodies": [
+      {
+        "name": "Central Drugs Standard Control Organization",
+        "abbreviation": "CDSCO",
+        "role": "regulator",
+        "website": "https://cdsco.gov.in"
+      },
+      {
+        "name": "National Pharmaceutical Pricing Authority",
+        "abbreviation": "NPPA",
+        "role": "payer",
+        "website": "https://www.nppaindia.nic.in"
+      },
+      {
+        "name": "Health Technology Assessment in India",
+        "abbreviation": "HTAIn",
+        "role": "advisory",
+        "website": "https://htain.icmr.org.in"
+      }
+    ],
+    "pathway_steps": [
+      {"step": 1, "label": "CDSCO approval", "typical_months": "9-18"},
+      {"step": 2, "label": "NPPA ceiling price - applies to drugs on National List of Essential Medicines (NLEM)", "typical_months": "1-3"},
+      {"step": 3, "label": "NLEM committee review for essential-drug inclusion (revised periodically, last 2022)", "typical_months": "variable"},
+      {"step": 4, "label": "Ayushman Bharat PM-JAY scheme inclusion for low-income beneficiaries (hospital-based)", "typical_months": "variable"},
+      {"step": 5, "label": "State-level procurement (tamilnadu TNMSC, Rajasthan RMSC are leading models)", "typical_months": "variable"},
+      {"step": 6, "label": "HTAIn advisory assessments - not binding on procurement", "typical_months": "6-12"}
+    ],
+    "notes": "HTAIn established 2017 under Department of Health Research but has advisory-only role. Drug pricing dominated by NPPA ceiling for NLEM drugs (Drugs Prices Control Order 2013). Large generics market keeps prices low; innovator-drug access constrained by out-of-pocket spend (~50 percent of health expenditure). Patent-linkage disputes and compulsory licensing (Section 84) occasionally relevant for specific cancer drugs.",
+    "sources": [
+      "https://cdsco.gov.in/",
+      "https://www.nppaindia.nic.in/",
+      "https://htain.icmr.org.in/"
+    ]
+  },
+  {
+    "country": "Kenya",
+    "iso_code": "KE",
+    "income_group": "LMIC",
+    "has_formal_hta": false,
+    "hta_bodies": [
+      {
+        "name": "Pharmacy and Poisons Board",
+        "abbreviation": "PPB",
+        "role": "regulator",
+        "website": "https://pharmacyboardkenya.org"
+      },
+      {
+        "name": "Ministry of Health - Division of Essential Medicines",
+        "abbreviation": "MoH-EM",
+        "role": "decision",
+        "website": "https://www.health.go.ke"
+      },
+      {
+        "name": "Kenya Medical Supplies Authority",
+        "abbreviation": "KEMSA",
+        "role": "payer",
+        "website": "https://www.kemsa.go.ke"
+      },
+      {
+        "name": "Social Health Authority (SHA, replacing NHIF in 2024)",
+        "abbreviation": "SHA",
+        "role": "payer",
+        "website": "https://sha.go.ke"
+      }
+    ],
+    "pathway_steps": [
+      {"step": 1, "label": "PPB registration (WHO-PQ or SRA reliance routes accepted)", "typical_months": "6-12"},
+      {"step": 2, "label": "Inclusion on Kenya Essential Medicines List (KEML) - revised ~every 3 years", "typical_months": "variable"},
+      {"step": 3, "label": "KEMSA competitive tender for public-sector procurement", "typical_months": "3-6"},
+      {"step": 4, "label": "SHA benefit-package decisions for insured population", "typical_months": "variable"},
+      {"step": 5, "label": "Donor-procurement parallel pathway (Global Fund for HIV/TB/malaria, Gavi for vaccines, PEPFAR, USAID GHSC-PSM)", "typical_months": "variable"}
+    ],
+    "notes": "No formal HTA body. Essential-medicines approach dominates public sector. Devolved health system means 47 counties make independent procurement decisions, creating inconsistency. Donor-funded access pathways (Global Fund, Gavi, PEPFAR) are as important as state financing for HIV, TB, malaria, maternal/child health. NHIF is being replaced by SHA under Universal Health Coverage reform (phased rollout from October 2024).",
+    "sources": [
+      "https://pharmacyboardkenya.org/",
+      "https://www.health.go.ke/",
+      "https://www.kemsa.go.ke/"
+    ]
+  },
+  {
+    "country": "Nigeria",
+    "iso_code": "NG",
+    "income_group": "LMIC",
+    "has_formal_hta": false,
+    "hta_bodies": [
+      {
+        "name": "National Agency for Food and Drug Administration and Control",
+        "abbreviation": "NAFDAC",
+        "role": "regulator",
+        "website": "https://www.nafdac.gov.ng"
+      },
+      {
+        "name": "Federal Ministry of Health and Social Welfare",
+        "abbreviation": "FMoH",
+        "role": "decision",
+        "website": "https://www.health.gov.ng"
+      },
+      {
+        "name": "National Health Insurance Authority",
+        "abbreviation": "NHIA",
+        "role": "payer",
+        "website": "https://www.nhia.gov.ng"
+      }
+    ],
+    "pathway_steps": [
+      {"step": 1, "label": "NAFDAC registration (WHO-PQ and SRA reliance pathways increasingly used)", "typical_months": "6-18"},
+      {"step": 2, "label": "Inclusion on Nigeria Essential Medicines List (EML) - last revised 2020, updates in progress", "typical_months": "variable"},
+      {"step": 3, "label": "Federal-level procurement via FMoH programs (NCDC for infectious disease)", "typical_months": "variable"},
+      {"step": 4, "label": "State-level procurement - 36 states with autonomous health budgets", "typical_months": "variable"},
+      {"step": 5, "label": "NHIA formulary (covers ~10 percent of population)", "typical_months": "variable"},
+      {"step": 6, "label": "Donor-procurement parallel pathway (Global Fund, Gavi, PEPFAR, GF Pooled Procurement Mechanism)", "typical_months": "variable"}
+    ],
+    "notes": "No formal HTA agency. Large out-of-pocket burden (~70 percent of health spending). Fragmented procurement across federal and state levels. Basic Health Care Provision Fund (BHCPF) under 2014 NHA funds primary-care access. Counterfeit and sub-standard drug problem addressed via NAFDAC Mobile Authentication Service (MAS) since 2010. NHIA replaced NHIS under 2022 Act, expanding mandatory coverage goals.",
+    "sources": [
+      "https://www.nafdac.gov.ng/",
+      "https://www.health.gov.ng/",
+      "https://www.nhia.gov.ng/"
+    ]
+  }
+]
