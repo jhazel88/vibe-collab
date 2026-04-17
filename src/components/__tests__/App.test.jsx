@@ -1,17 +1,16 @@
-import { render, screen, fireEvent } from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
 import { describe, it, expect } from 'vitest'
 import App from '../../App'
 
 describe('App', () => {
-  it('renders the project name', () => {
+  it('renders the app title', () => {
     render(<App />)
-    expect(screen.getByText('vibe-collab')).toBeInTheDocument()
+    expect(screen.getByText('HTA Tracker')).toBeInTheDocument()
   })
 
-  it('increments the vibe counter', () => {
+  it('renders the search page by default', () => {
     render(<App />)
-    const button = screen.getByRole('button', { name: /vibes: 0/i })
-    fireEvent.click(button)
-    expect(screen.getByRole('button', { name: /vibes: 1/i })).toBeInTheDocument()
+    expect(screen.getByText('HTA Market Access Tracker')).toBeInTheDocument()
+    expect(screen.getByPlaceholderText(/search sponsors/i)).toBeInTheDocument()
   })
 })
