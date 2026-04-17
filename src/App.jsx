@@ -1,7 +1,8 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback, useMemo } from "react";
 import SearchPage from "./pages/SearchPage.jsx";
 import SponsorPage from "./pages/SponsorPage.jsx";
 import CountryPage from "./pages/CountryPage.jsx";
+import ChatPanel from "./components/ChatPanel.jsx";
 
 /**
  * App — minimal state-based routing for Sprint 1.
@@ -14,6 +15,17 @@ function App() {
     setRoute({ page, id });
     window.scrollTo(0, 0);
   }, []);
+
+  // Build context for ChatPanel based on current route
+  const chatContext = useMemo(() => {
+    if (route.page === "country" && route.id) {
+      return { country_iso: route.id, mode: "country" };
+    }
+    if (route.page === "sponsor" && route.id) {
+      return { asset_id: route.id, mode: "sponsor" };
+    }
+    return { mode: "search" };
+  }, [route.page, route.id]);
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -51,6 +63,9 @@ function App() {
           )}
         </div>
       </main>
+
+      {/* Chat assistant */}
+      <ChatPanel context={chatContext} />
     </div>
   );
 }
