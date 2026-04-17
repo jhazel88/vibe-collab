@@ -19,6 +19,7 @@ import assetRoutes from "./routes/assets.js";
 import trialRoutes from "./routes/trials.js";
 import countryRoutes from "./routes/countries.js";
 import searchRoutes from "./routes/search.js";
+import brainRoutes from "./routes/brain.js";
 
 const PORT = Number(process.env.API_PORT || process.env.PORT || 3011);
 const IS_PROD = process.env.NODE_ENV === "production";
@@ -87,8 +88,12 @@ app.use("/api/trials", trialRoutes);
 app.use("/api/countries", countryRoutes);
 app.use("/api/search", searchRoutes);
 
+// ── Brain / chat routes ─────────────────────────────────────────────────
+
+app.use("/api/brain", brainRoutes);
+
 // ── Placeholder for future route mounts ─────────────────────────────────
-// Batch 5: brain/chat
+// Batch 6+: frontend scaffold, chat overlay, integration tests
 
 // ── Error handler (must be last) ─────────────────────────────────────────
 
