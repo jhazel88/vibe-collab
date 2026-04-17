@@ -1,0 +1,15 @@
+{
+  "name": "nice-explore",
+  "private": true,
+  "type": "module",
+  "description": "Fetch NICE Technology Appraisal guidance via the NICE syndication API. Scoped to data/raw/; not part of the main app.",
+  "scripts": {
+    "probe": "node fetch-ta-decisions.js --probe",
+    "fetch": "node fetch-ta-decisions.js",
+    "fetch:small": "node fetch-ta-decisions.js --max-pages=1",
+    "test": "node test-parse.mjs"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.4.1"
+  }
+}
