@@ -1,16 +1,27 @@
-# React + Vite
+# vibe-collab
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A collaborative vibe coding project. Built with React 19 + Vite 8 + Tailwind CSS v4 + Vitest.
 
-Currently, two official plugins are available:
+## Quick start
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+git clone https://github.com/jhazel88/vibe-collab.git
+cd vibe-collab
+npm install
+npm run dev
+```
 
-## React Compiler
+## Docs
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **[Getting Started](docs/GETTING-STARTED.md)** — setup, workflow, repo structure
+- **[Vibe Coding Guide](docs/vibe-coding-guide.md)** — patterns and tips from a real build
+- **[Project Plan](.codex/PLAN.md)** — what we're building and who's doing what
 
-## Expanding the ESLint configuration
+## Commands
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm run dev      # dev server at localhost:5173
+npm test         # run tests
+npm run build    # production build
+npm run lint     # check code style
+```
