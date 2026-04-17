@@ -1,0 +1,7 @@
+node_modules/
+*.log
+# Raw HTML dumps can be large and change every run — commit only the simplified JSON
+raw-listing.html
+raw-listing-*.html
+raw-detail-*.html
+probe-response.txt
