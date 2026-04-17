@@ -13,6 +13,7 @@ import { csrfProtection } from "./middleware/csrf.js";
 import { authenticate, authRoutes } from "./middleware/auth.js";
 import { healthCheck, shutdown as dbShutdown } from "./db/connection.js";
 import { status as llmStatus } from "./lib/llm-gateway.js";
+import ingestRoutes from "./routes/ingest.js";
 
 const PORT = Number(process.env.API_PORT || process.env.PORT || 3011);
 const IS_PROD = process.env.NODE_ENV === "production";
@@ -68,6 +69,10 @@ app.get("/api/health", async (_req, res) => {
 // ── Auth routes ──────────────────────────────────────────────────────────
 
 app.use("/api/auth", authRoutes);
+
+// ── Ingestion routes (admin-only) ────────────────────────────────────────
+
+app.use("/api/ingest", ingestRoutes);
 
 // ── Placeholder for future route mounts ─────────────────────────────────
 // Batch 4: sponsors, assets, trials, countries, search
