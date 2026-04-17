@@ -1,0 +1,15 @@
+{
+  "name": "gba-explore",
+  "private": true,
+  "type": "module",
+  "description": "Scrape G-BA AMNOG benefit assessment (Nutzenbewertung) decisions. Scoped to data/raw/; not part of the main app.",
+  "scripts": {
+    "probe": "node scrape-decisions.js --probe",
+    "scrape": "node scrape-decisions.js",
+    "scrape:small": "node scrape-decisions.js --max-pages=1",
+    "scrape:enrich": "node scrape-decisions.js --enrich"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}
