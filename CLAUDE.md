@@ -30,6 +30,7 @@ A shared sandbox for James and k4zzieB to learn vibe coding together by building
 - We're brainstorming what to build — check `.codex/PLAN.md` for ideas and status
 - Full vibe coding guide at `docs/vibe-coding-guide.md`
 - Getting started walkthrough at `docs/GETTING-STARTED.md`
+- Collaboration workflow at `docs/COLLAB-WORKFLOW.md`
 
 ## Collaborators
 - **James** (jhazel88) — repo owner

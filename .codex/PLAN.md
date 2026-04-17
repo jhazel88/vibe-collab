@@ -31,3 +31,4 @@ _Add features here as you brainstorm. One line each._
 - [x] docs/vibe-coding-guide.md — full guide with patterns from a real build
 - [x] docs/GETTING-STARTED.md — onboarding for new collaborators
 - [x] k4zzieB added as collaborator
+- [x] docs/COLLAB-WORKFLOW.md — how we coordinate (claims, branches, PRs, async/sync)
