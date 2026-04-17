@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "nice",
+    "name": "National Institute for Health and Care Excellence",
+    "abbreviation": "NICE",
+    "country_iso": "GB",
+    "role": "assessment",
+    "website": "https://www.nice.org.uk",
+    "decision_db_url": "https://www.nice.org.uk/guidance/published?type=ta",
+    "has_api": true
+  },
+  {
+    "slug": "nice-smct",
+    "name": "Scottish Medicines Consortium",
+    "abbreviation": "SMC",
+    "country_iso": "GB",
+    "role": "assessment",
+    "website": "https://www.scottishmedicines.org.uk",
+    "decision_db_url": "https://www.scottishmedicines.org.uk/medicines-advice/",
+    "has_api": false
+  },
+  {
+    "slug": "g-ba",
+    "name": "Gemeinsamer Bundesausschuss",
+    "abbreviation": "G-BA",
+    "country_iso": "DE",
+    "role": "decision",
+    "website": "https://www.g-ba.de",
+    "decision_db_url": "https://www.g-ba.de/bewertungsverfahren/nutzenbewertung/",
+    "has_api": false
+  },
+  {
+    "slug": "iqwig",
+    "name": "Institut für Qualität und Wirtschaftlichkeit im Gesundheitswesen",
+    "abbreviation": "IQWiG",
+    "country_iso": "DE",
+    "role": "assessment",
+    "website": "https://www.iqwig.de",
+    "decision_db_url": "https://www.iqwig.de/en/projects-results/projects/drug-assessment.html",
+    "has_api": false
+  },
+  {
+    "slug": "has",
+    "name": "Haute Autorité de Santé",
+    "abbreviation": "HAS",
+    "country_iso": "FR",
+    "role": "assessment",
+    "website": "https://www.has-sante.fr",
+    "decision_db_url": "https://www.has-sante.fr/jcms/fc_2875171/en/transparency-committee",
+    "has_api": false
+  },
+  {
+    "slug": "ceps",
+    "name": "Comité Économique des Produits de Santé",
+    "abbreviation": "CEPS",
+    "country_iso": "FR",
+    "role": "pricing",
+    "website": "https://sante.gouv.fr/ministere/acteurs/instances-rattachees/article/comite-economique-des-produits-de-sante-ceps",
+    "decision_db_url": null,
+    "has_api": false
+  },
+  {
+    "slug": "uncam",
+    "name": "Union Nationale des Caisses d'Assurance Maladie",
+    "abbreviation": "UNCAM",
+    "country_iso": "FR",
+    "role": "formulary",
+    "website": "https://www.ameli.fr",
+    "decision_db_url": null,
+    "has_api": false
+  }
+]

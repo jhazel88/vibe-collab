@@ -12,7 +12,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "migrate": "node api/db/migrate.js",
-    "migrate:dry": "node api/db/migrate.js --dry-run"
+    "migrate:dry": "node api/db/migrate.js --dry-run",
+    "seed": "node api/db/seed-loader.js"
   },
   "dependencies": {
     "react": "^19.2.4",
