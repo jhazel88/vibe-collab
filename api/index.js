@@ -14,6 +14,11 @@ import { authenticate, authRoutes } from "./middleware/auth.js";
 import { healthCheck, shutdown as dbShutdown } from "./db/connection.js";
 import { status as llmStatus } from "./lib/llm-gateway.js";
 import ingestRoutes from "./routes/ingest.js";
+import sponsorRoutes from "./routes/sponsors.js";
+import assetRoutes from "./routes/assets.js";
+import trialRoutes from "./routes/trials.js";
+import countryRoutes from "./routes/countries.js";
+import searchRoutes from "./routes/search.js";
 
 const PORT = Number(process.env.API_PORT || process.env.PORT || 3011);
 const IS_PROD = process.env.NODE_ENV === "production";
@@ -74,8 +79,15 @@ app.use("/api/auth", authRoutes);
 
 app.use("/api/ingest", ingestRoutes);
 
+// ── Data routes ─────────────────────────────────────────────────────────
+
+app.use("/api/sponsors", sponsorRoutes);
+app.use("/api/assets", assetRoutes);
+app.use("/api/trials", trialRoutes);
+app.use("/api/countries", countryRoutes);
+app.use("/api/search", searchRoutes);
+
 // ── Placeholder for future route mounts ─────────────────────────────────
-// Batch 4: sponsors, assets, trials, countries, search
 // Batch 5: brain/chat
 
 // ── Error handler (must be last) ─────────────────────────────────────────
