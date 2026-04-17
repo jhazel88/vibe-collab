@@ -1,0 +1,9 @@
+node_modules/
+*.log
+# Raw API responses — large, change per run. Commit only the simplified JSON.
+raw-response-*.xml
+raw-response-*.json
+probe-response.txt
+# API key — never commit
+.env
+.env.local
